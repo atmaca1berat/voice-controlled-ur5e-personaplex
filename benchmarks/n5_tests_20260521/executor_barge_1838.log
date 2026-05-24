@@ -1,0 +1,20 @@
+[INFO] [1779377885.511196726] [voice_task_executor]: Voice Task Executor started
+[INFO] [1779377885.511709626] [voice_task_executor]: Planning group: ur_manipulator
+[INFO] [1779377885.512114726] [voice_task_executor]: Waiting for /move_action server...
+[INFO] [1779377885.512806626] [voice_task_executor]: MoveIt2 action server connected
+[INFO] [1779377963.642235029] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1779377963.643014512] [voice_task_executor]: Sending joint goal 'a': [1.5707963267948966, -1.5707963267948966, 1.5707963267948966, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1779377963.647503379] [voice_task_executor]: Goal accepted, executing...
+[WARN] [1779377963.675410704] [voice_task_executor]: Goal finished with error code: -4
+[INFO] [1779378203.831368302] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1779378203.831766130] [voice_task_executor]: Sending joint goal 'a': [1.5707963267948966, -1.5707963267948966, 1.5707963267948966, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1779378203.834298824] [voice_task_executor]: Goal accepted, executing...
+[WARN] [1779378203.857735280] [voice_task_executor]: Goal finished with error code: -4
+[INFO] [1779378442.554821080] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1779378442.555923498] [voice_task_executor]: Sending joint goal 'a': [1.5707963267948966, -1.5707963267948966, 1.5707963267948966, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1779378442.561549225] [voice_task_executor]: Goal accepted, executing...
+[WARN] [1779378442.592105133] [voice_task_executor]: Goal finished with error code: -4
+[INFO] [1779378665.535300835] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1779378665.536012416] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1779378665.540740352] [voice_task_executor]: Goal accepted, executing...
+[WARN] [1779378665.570484642] [voice_task_executor]: Goal finished with error code: -4

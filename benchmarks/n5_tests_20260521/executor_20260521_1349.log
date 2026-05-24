@@ -1,0 +1,4 @@
+[INFO] [1779360543.545779781] [voice_task_executor]: Voice Task Executor started
+[INFO] [1779360543.546862057] [voice_task_executor]: Planning group: ur_manipulator
+[INFO] [1779360543.547572449] [voice_task_executor]: Waiting for /move_action server...
+[INFO] [1779360544.550665557] [voice_task_executor]: MoveIt2 action server connected

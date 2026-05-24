@@ -1,0 +1,93 @@
+[INFO] [1779369128.464394056] [voice_task_executor]: Voice Task Executor started
+[INFO] [1779369128.465030538] [voice_task_executor]: Planning group: ur_manipulator
+[INFO] [1779369128.465478982] [voice_task_executor]: Waiting for /move_action server...
+[INFO] [1779369128.466111590] [voice_task_executor]: MoveIt2 action server connected
+[INFO] [1779369834.973300321] [voice_task_executor]: No intent recognized, ignoring
+[INFO] [1779371249.475921125] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1779371249.477385072] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1779371249.512173009] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1779371249.770597098] [voice_task_executor]: Goal completed successfully
+[INFO] [1779371811.244532243] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1779371811.245464490] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1779371811.251495553] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1779371811.471226443] [voice_task_executor]: Goal completed successfully
+[INFO] [1779371982.978074070] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1779371982.979105198] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1779371982.983596010] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1779371983.202306592] [voice_task_executor]: Goal completed successfully
+[INFO] [1779372101.218652032] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1779372101.219492818] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1779372101.225074676] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1779372101.444958452] [voice_task_executor]: Goal completed successfully
+[INFO] [1779372220.022988311] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1779372220.023719012] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1779372220.028323725] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1779372220.248397077] [voice_task_executor]: Goal completed successfully
+[INFO] [1779372321.915633691] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1779372321.916583662] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1779372321.920621040] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1779372322.090416902] [voice_task_executor]: Goal completed successfully
+[INFO] [1779373706.866233500] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1779373706.867036000] [voice_task_executor]: Sending pose goal 'a': x=0.4 y=0.2 z=0.4
+[INFO] [1779373706.892169471] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1779373710.131578613] [voice_task_executor]: Goal completed successfully
+[INFO] [1779374549.749845353] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1779374549.750263604] [voice_task_executor]: Sending pose goal 'a': x=0.4 y=0.2 z=0.4
+[INFO] [1779374549.755085532] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1779374552.559400799] [voice_task_executor]: Goal completed successfully
+[INFO] [1779374586.692162086] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1779374586.693504943] [voice_task_executor]: No active goal to cancel
+[INFO] [1779375038.942516270] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1779375038.943323666] [voice_task_executor]: Sending pose goal 'a': x=0.4 y=0.2 z=0.4
+[INFO] [1779375038.948436090] [voice_task_executor]: Goal accepted, executing...
+[WARN] [1779375039.057381260] [voice_task_executor]: Goal finished with error code: -2
+[INFO] [1779375409.103095975] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1779375409.104013342] [voice_task_executor]: Sending pose goal 'a': x=0.4 y=0.2 z=0.4
+[INFO] [1779375409.108765106] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1779375413.054194192] [voice_task_executor]: Goal completed successfully
+[INFO] [1779375627.109130358] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1779375627.109906065] [voice_task_executor]: Sending pose goal 'a': x=0.4 y=0.2 z=0.4
+[INFO] [1779375627.114951406] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1779375635.199821100] [voice_task_executor]: Goal completed successfully
+[INFO] [1779375658.357957831] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1779375658.359391815] [voice_task_executor]: No active goal to cancel
+[INFO] [1779375881.963224806] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1779375881.963748176] [voice_task_executor]: Sending pose goal 'a': x=0.4 y=0.2 z=0.4
+[INFO] [1779375881.967864768] [voice_task_executor]: Goal accepted, executing...
+[WARN] [1779375883.453280005] [voice_task_executor]: Goal finished with error code: -4
+[INFO] [1779375916.531917507] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1779375916.532739675] [voice_task_executor]: No active goal to cancel
+[INFO] [1779376010.663461514] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1779376010.664738461] [voice_task_executor]: Sending pose goal 'a': x=0.4 y=0.2 z=0.4
+[INFO] [1779376010.670495061] [voice_task_executor]: Goal accepted, executing...
+[WARN] [1779376015.689759557] [voice_task_executor]: Goal finished with error code: -4
+[INFO] [1779376043.251523626] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1779376043.252139393] [voice_task_executor]: No active goal to cancel
+[INFO] [1779376470.708909752] [voice_task_executor]: Intent: query.where_are_you priority=4 params={}
+[INFO] [1779376470.709930028] [voice_task_executor]: Query intent query.where_are_you (no MoveIt action)
+[INFO] [1779376574.326276245] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1779376574.327261183] [voice_task_executor]: Sending pose goal 'a': x=0.4 y=0.2 z=0.4
+[INFO] [1779376574.332980579] [voice_task_executor]: Goal accepted, executing...
+[WARN] [1779376574.403411564] [voice_task_executor]: Goal finished with error code: -4
+[INFO] [1779376602.548389209] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1779376602.549060576] [voice_task_executor]: No active goal to cancel
+[INFO] [1779376673.077426903] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1779376673.078273498] [voice_task_executor]: Sending pose goal 'a': x=0.4 y=0.2 z=0.4
+[INFO] [1779376673.084259547] [voice_task_executor]: Goal accepted, executing...
+[WARN] [1779376673.239946492] [voice_task_executor]: Goal finished with error code: -4
+[INFO] [1779376720.151871823] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1779376720.152691460] [voice_task_executor]: No active goal to cancel
+[INFO] [1779376773.550409013] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1779376773.551042906] [voice_task_executor]: Sending pose goal 'a': x=0.4 y=0.2 z=0.4
+[INFO] [1779376773.554553339] [voice_task_executor]: Goal accepted, executing...
+[WARN] [1779376773.719623816] [voice_task_executor]: Goal finished with error code: -4
+[INFO] [1779376794.983473056] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1779376794.984274315] [voice_task_executor]: No active goal to cancel
+[INFO] [1779376865.655980066] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1779376865.656761363] [voice_task_executor]: Sending pose goal 'a': x=0.4 y=0.2 z=0.4
+[INFO] [1779376865.663435178] [voice_task_executor]: Goal accepted, executing...
+[WARN] [1779376870.710937389] [voice_task_executor]: Goal finished with error code: -4
+[INFO] [1779377083.725954737] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1779377083.727156597] [voice_task_executor]: Sending pose goal 'a': x=0.4 y=0.2 z=0.4
+[INFO] [1779377083.734403904] [voice_task_executor]: Goal accepted, executing...
+[WARN] [1779377088.754366282] [voice_task_executor]: Goal finished with error code: -4

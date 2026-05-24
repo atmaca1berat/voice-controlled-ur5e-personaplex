@@ -1,0 +1,22 @@
+[INFO] [1779379032.125779885] [voice_task_executor]: Voice Task Executor started
+[INFO] [1779379032.127525239] [voice_task_executor]: Planning group: ur_manipulator
+[INFO] [1779379032.128235422] [voice_task_executor]: Waiting for /move_action server...
+[INFO] [1779379032.880110742] [voice_task_executor]: MoveIt2 action server connected
+[INFO] [1779379047.625393249] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1779379047.625925712] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1779379047.631423665] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1779379047.816765812] [voice_task_executor]: Goal completed successfully
+[INFO] [1779379115.559765287] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1779379115.560882168] [voice_task_executor]: Sending joint goal 'a': [0.0, -1.0471975511965976, 1.0471975511965976, -1.5707963267948966, -1.5707963267948966, 0.0]
+[INFO] [1779379115.566717718] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1779379117.293858212] [voice_task_executor]: Goal completed successfully
+[INFO] [1779379183.777110840] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1779379183.777767900] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1779379183.781993328] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1779379185.502370678] [voice_task_executor]: Goal completed successfully
+[INFO] [1779379239.452149465] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1779379239.452985865] [voice_task_executor]: Sending joint goal 'a': [0.0, -1.0471975511965976, 1.0471975511965976, -1.5707963267948966, -1.5707963267948966, 0.0]
+[INFO] [1779379239.457541366] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1779379241.145835861] [voice_task_executor]: Goal completed successfully
+[INFO] [1779379242.706289209] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1779379242.706962273] [voice_task_executor]: No active goal to cancel

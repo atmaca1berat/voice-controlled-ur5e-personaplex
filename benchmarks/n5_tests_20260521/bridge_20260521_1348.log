@@ -1,0 +1,5 @@
+[INFO] [1779360494.977254850] [personaplex_bridge]: PersonaPlex Bridge node started
+[INFO] [1779360494.978373589] [personaplex_bridge]: ASR HTTP: http://172.21.61.203:8080
+[INFO] [1779360494.979277110] [personaplex_bridge]: PP HTTP: http://172.21.61.203:8081
+[INFO] [1779360494.980161818] [personaplex_bridge]: Voice: NATF0
+[INFO] [1779360494.987177232] [personaplex_bridge]: HTTP session ready, waiting for audio...

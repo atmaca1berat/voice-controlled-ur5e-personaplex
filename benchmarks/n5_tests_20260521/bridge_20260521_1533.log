@@ -1,0 +1,25 @@
+[INFO] [1779366824.172200978] [personaplex_bridge]: PersonaPlex Bridge node started
+[INFO] [1779366824.172907694] [personaplex_bridge]: ASR HTTP: http://172.21.61.203:8080
+[INFO] [1779366824.173495362] [personaplex_bridge]: PP HTTP: http://172.21.61.203:8081
+[INFO] [1779366824.174468547] [personaplex_bridge]: Voice: NATF0
+[INFO] [1779366824.177241255] [personaplex_bridge]: HTTP session ready, waiting for audio...
+[INFO] [1779366924.228673128] [personaplex_bridge]: Audio chunk received from Unity: 123520 bytes b64
+[INFO] [1779366924.457068982] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1779366924.459407442] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1779366924.463450559] [personaplex_bridge]: POST PP /respond...
+[INFO] [1779366927.868868326] [personaplex_bridge]: Published /voice_command/text: 高雄。
+[INFO] [1779366927.870664166] [personaplex_bridge]: Published /voice_command/parsed: intent=None params={}
+[INFO] [1779366938.559814261] [personaplex_bridge]: Agent transcript: . How can I help you today?
+[INFO] [1779366938.560623671] [personaplex_bridge]: Published /voice_command/agent_text: . How can I help you today?
+[INFO] [1779366938.564329702] [personaplex_bridge]: PP response duration: 6.8s
+[INFO] [1779366938.566622690] [personaplex_bridge]: Published /audio/to_unity: 435200 bytes b64
+[INFO] [1779366986.109123839] [personaplex_bridge]: Audio chunk received from Unity: 58240 bytes b64
+[INFO] [1779366986.522683415] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1779366986.523832994] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1779366986.525767679] [personaplex_bridge]: POST PP /respond...
+[INFO] [1779366991.508420380] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1779366991.509707273] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1779367013.302698134] [personaplex_bridge]: Agent transcript: to the industrial robot command line. How can I help?
+[INFO] [1779367013.303385611] [personaplex_bridge]: Published /voice_command/agent_text: to the industrial robot command line. How can I help?
+[INFO] [1779367013.306504346] [personaplex_bridge]: PP response duration: 5.76s
+[INFO] [1779367013.307670530] [personaplex_bridge]: Published /audio/to_unity: 368640 bytes b64

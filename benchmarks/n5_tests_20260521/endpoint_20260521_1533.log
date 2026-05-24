@@ -1,0 +1,57 @@
+[INFO] [1779366804.512174832] [UnityEndpoint]: Starting server on 0.0.0.0:10000
+[INFO] [1779366919.122471109] [UnityEndpoint]: Connection from 172.17.144.1
+[INFO] [1779366919.395964108] [UnityEndpoint]: RegisterSubscriber(/tf, <class 'tf2_msgs.msg._tf_message.TFMessage'>) OK
+[INFO] [1779366919.417563814] [UnityEndpoint]: RegisterSubscriber(/voice_command/text, <class 'std_msgs.msg._string.String'>) OK
+[INFO] [1779366919.455446872] [UnityEndpoint]: RegisterSubscriber(/voice_command/agent_text, <class 'std_msgs.msg._string.String'>) OK
+[INFO] [1779366919.486690977] [UnityEndpoint]: RegisterSubscriber(/audio/to_unity, <class 'std_msgs.msg._string.String'>) OK
+[INFO] [1779366919.507663891] [UnityEndpoint]: RegisterPublisher(/audio/from_unity, <class 'std_msgs.msg._string.String'>) OK
+[ERROR] [1779366971.537561116] [UnityEndpoint]: Exception: No more data available
+[INFO] [1779366971.538577532] [UnityEndpoint]: Disconnected from 172.17.144.1
+[ERROR] [1779366971.563575229] [UnityEndpoint]: Exception [Errno 9] Bad file descriptor
+[INFO] [1779366980.906259389] [UnityEndpoint]: Connection from 172.17.144.1
+[WARN] [1779366980.921774299] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[INFO] [1779366980.962547134] [UnityEndpoint]: RegisterSubscriber(/tf, <class 'tf2_msgs.msg._tf_message.TFMessage'>) OK
+[WARN] [1779366980.963860506] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[INFO] [1779366981.013777753] [UnityEndpoint]: RegisterSubscriber(/voice_command/text, <class 'std_msgs.msg._string.String'>) OK
+[WARN] [1779366981.015306634] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[INFO] [1779366981.077585378] [UnityEndpoint]: RegisterSubscriber(/voice_command/agent_text, <class 'std_msgs.msg._string.String'>) OK
+[WARN] [1779366981.078842175] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[INFO] [1779366981.126258564] [UnityEndpoint]: RegisterSubscriber(/audio/to_unity, <class 'std_msgs.msg._string.String'>) OK
+[WARN] [1779366981.130194692] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[INFO] [1779366981.186806819] [UnityEndpoint]: RegisterPublisher(/audio/from_unity, <class 'std_msgs.msg._string.String'>) OK
+[ERROR] [1779367473.318671588] [UnityEndpoint]: Exception: No more data available
+[INFO] [1779367473.324554167] [UnityEndpoint]: Disconnected from 172.17.144.1
+[ERROR] [1779367473.324980786] [UnityEndpoint]: Exception [Errno 9] Bad file descriptor
+[INFO] [1779367491.778831145] [UnityEndpoint]: Connection from 172.17.144.1
+[INFO] [1779367491.830702680] [UnityEndpoint]: RegisterSubscriber(/tf, <class 'tf2_msgs.msg._tf_message.TFMessage'>) OK
+[INFO] [1779367491.867409168] [UnityEndpoint]: RegisterSubscriber(/voice_command/text, <class 'std_msgs.msg._string.String'>) OK
+[INFO] [1779367491.911209431] [UnityEndpoint]: RegisterSubscriber(/voice_command/agent_text, <class 'std_msgs.msg._string.String'>) OK
+[INFO] [1779367491.956752136] [UnityEndpoint]: RegisterSubscriber(/audio/to_unity, <class 'std_msgs.msg._string.String'>) OK
+[INFO] [1779367492.007490976] [UnityEndpoint]: RegisterPublisher(/audio/from_unity, <class 'std_msgs.msg._string.String'>) OK
+[ERROR] [1779368920.000254471] [UnityEndpoint]: Exception: No more data available
+[INFO] [1779368920.007066213] [UnityEndpoint]: Disconnected from 172.17.144.1
+[ERROR] [1779368920.007545190] [UnityEndpoint]: Exception [Errno 9] Bad file descriptor
+[INFO] [1779369711.885818098] [UnityEndpoint]: Connection from 172.17.144.1
+[INFO] [1779369711.956010829] [UnityEndpoint]: RegisterSubscriber(/tf, <class 'tf2_msgs.msg._tf_message.TFMessage'>) OK
+[INFO] [1779369712.017319580] [UnityEndpoint]: RegisterSubscriber(/voice_command/text, <class 'std_msgs.msg._string.String'>) OK
+[INFO] [1779369712.068692269] [UnityEndpoint]: RegisterSubscriber(/voice_command/agent_text, <class 'std_msgs.msg._string.String'>) OK
+[INFO] [1779369712.128282405] [UnityEndpoint]: RegisterSubscriber(/audio/to_unity, <class 'std_msgs.msg._string.String'>) OK
+[INFO] [1779369712.188326118] [UnityEndpoint]: RegisterPublisher(/audio/from_unity, <class 'std_msgs.msg._string.String'>) OK
+[ERROR] [1779369738.768026171] [UnityEndpoint]: Exception: No more data available
+[INFO] [1779369738.768750766] [UnityEndpoint]: Disconnected from 172.17.144.1
+[ERROR] [1779369738.795246316] [UnityEndpoint]: Exception [Errno 9] Bad file descriptor
+[INFO] [1779369778.414577389] [UnityEndpoint]: Connection from 172.17.144.1
+[INFO] [1779369778.483127832] [UnityEndpoint]: RegisterSubscriber(/tf, <class 'tf2_msgs.msg._tf_message.TFMessage'>) OK
+[INFO] [1779369778.524822710] [UnityEndpoint]: RegisterSubscriber(/voice_command/text, <class 'std_msgs.msg._string.String'>) OK
+[INFO] [1779369778.562843022] [UnityEndpoint]: RegisterSubscriber(/voice_command/agent_text, <class 'std_msgs.msg._string.String'>) OK
+[INFO] [1779369778.608529140] [UnityEndpoint]: RegisterSubscriber(/audio/to_unity, <class 'std_msgs.msg._string.String'>) OK
+[INFO] [1779369778.639098678] [UnityEndpoint]: RegisterPublisher(/audio/from_unity, <class 'std_msgs.msg._string.String'>) OK
+[ERROR] [1779377473.568528776] [UnityEndpoint]: Exception: No more data available
+[INFO] [1779377473.570589588] [UnityEndpoint]: Disconnected from 172.17.144.1
+[ERROR] [1779377473.601629691] [UnityEndpoint]: Exception [Errno 9] Bad file descriptor
+[INFO] [1779378394.942272189] [UnityEndpoint]: Connection from 172.17.144.1
+[INFO] [1779378395.016143040] [UnityEndpoint]: RegisterSubscriber(/tf, <class 'tf2_msgs.msg._tf_message.TFMessage'>) OK
+[INFO] [1779378395.063527906] [UnityEndpoint]: RegisterSubscriber(/voice_command/text, <class 'std_msgs.msg._string.String'>) OK
+[INFO] [1779378395.114787027] [UnityEndpoint]: RegisterSubscriber(/voice_command/agent_text, <class 'std_msgs.msg._string.String'>) OK
+[INFO] [1779378395.167492099] [UnityEndpoint]: RegisterSubscriber(/audio/to_unity, <class 'std_msgs.msg._string.String'>) OK
+[INFO] [1779378395.221694213] [UnityEndpoint]: RegisterPublisher(/audio/from_unity, <class 'std_msgs.msg._string.String'>) OK

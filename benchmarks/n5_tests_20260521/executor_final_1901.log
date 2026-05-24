@@ -1,0 +1,12 @@
+[INFO] [1779379316.894851797] [voice_task_executor]: Voice Task Executor started
+[INFO] [1779379316.896430909] [voice_task_executor]: Planning group: ur_manipulator
+[INFO] [1779379316.898077879] [voice_task_executor]: Waiting for /move_action server...
+[INFO] [1779379316.899886612] [voice_task_executor]: MoveIt2 action server connected
+[INFO] [1779379355.333709757] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1779379355.334749207] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1779379355.340781731] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1779379357.031495464] [voice_task_executor]: Goal completed successfully
+[INFO] [1779379363.153632809] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1779379363.154246044] [voice_task_executor]: Sending joint goal 'a': [3.141592653589793, -0.7853981633974483, 0.7853981633974483, -0.7853981633974483, 1.5707963267948966, 1.5707963267948966]
+[INFO] [1779379363.159544985] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1779379365.848810474] [voice_task_executor]: Goal completed successfully
