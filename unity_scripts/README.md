@@ -1,6 +1,6 @@
-# Unity Scripts (Skeleton)
+# Unity Scripts
 
-Bu klasör Unity scripts'in iskelet hâlini içerir. Production hâli Windows PC'de tutuluyor (teknokent erişimi gerekli). Final teslimden önce gerçek hâliyle güncellenecek.
+Bu klasör Unity operatör arayüzünün production C# script'lerini içerir. Windows PC üzerinde Unity 2022.3 ile çalıştırılır ve interim raporda Section 3.5'te belgelenen operatör arayüzünü uygular.
 
 ## İçerik
 
@@ -19,10 +19,10 @@ Bu klasör Unity scripts'in iskelet hâlini içerir. Production hâli Windows PC
 
 1. Boş bir GameObject oluştur, üç script'i ekle.
 2. `MicPublisher`: varsayılan tuş `Space`, varsayılan topic `/audio/from_unity`.
-3. `AudioSubscriber`: `audioSource` alanına bir `AudioSource` ata.
-4. `TranscriptDisplay`: `userTranscriptField` ve `agentTranscriptField` alanlarına TextMeshPro UI nesnelerini ata.
+3. `AudioSubscriber`: `audioSource` alanına bir `AudioSource` ata (atanmazsa otomatik eklenir).
+4. `TranscriptDisplay`: `userText` ve `assistantText` alanlarına TextMeshPro UI nesnelerini ata.
 5. ROS Settings: WSL2 IP'sini ve port 10000'i tanımla (Window → Robotics → ROS Settings).
 
-## Mevcut durum
+## Davranış
 
-Bu iskelet sınıflar interim raporda Section 3.5'te belgelenen davranışı modeller. Üretim hâlinde Berat'ın Windows kurulumundaki nihai versiyon ile değiştirilecek.
+Bu script'ler push-to-talk ses yakalama, agent sesli yanıtın oynatılması ve kullanıcı/asistan transkriptlerinin TextMeshPro ile gösterilmesini sağlar. ROS 2 köprüsü ile haberleşme `std_msgs/String` mesajları üzerinden base64 kodlanmış PCM16 ses ile yapılır.

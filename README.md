@@ -62,19 +62,22 @@ The two hosts must be on the same network. The bridge reaches the inference serv
 
 ## Dependencies
 
-**Apple Silicon host**
-- Python 3.10+
-- MLX and the PersonaPlex MLX 4-bit build
+**Apple Silicon host (inference server, Swift)**
+- Swift toolchain (Xcode with the Metal toolchain installed)
+- MLX and the PersonaPlex MLX 4-bit build (~5.3 GB)
 - Qwen3-ASR backend
-- `aiohttp`, `numpy`
+- The modified `audio-server` from `patches/`, built within the upstream `ivan-digital/qwen3-asr-swift` fork (this server is Swift, not Python)
 
 **Windows / WSL2 host**
 - ROS 2 Humble Hawksbill
 - MoveIt2, Gazebo, the Universal Robots ROS 2 description/driver packages
-- Python 3.10+ with `rclpy`, `aiohttp`
 - Unity 2022.3 with the ROS-TCP-Connector package
 
-Exact package versions are listed in the per-directory setup files. The NLU module has **no external dependencies** (pure Python standard library).
+ROS 2 package dependencies (from each `package.xml`):
+- `personaplex_bridge`: `rclpy`, `std_msgs`, `python3-aiohttp`
+- `voice_task_executor`: `rclpy`, `std_msgs`, `geometry_msgs`, `sensor_msgs`, `shape_msgs`, `moveit_msgs`
+
+The `nlu_module` has **no external dependencies** (pure Python standard library).
 
 ---
 
@@ -87,11 +90,11 @@ git clone https://github.com/atmaca1berat/voice-controlled-ur5e-personaplex.git
 cd voice-controlled-ur5e-personaplex
 ```
 
-**Apple Silicon host** — install the inference dependencies and apply the server patches:
+**Apple Silicon host** — the inference server is the Swift `audio-server` from the upstream `ivan-digital/qwen3-asr-swift` fork, with the modifications in `patches/` applied. It is **built in the upstream fork, not in this repository**. After replacing `Sources/AudioServerCLI/AudioServerCommand.swift` and `Sources/AudioServer/AudioServer.swift` with the versions in `patches/` (see `patches/README.md`):
 
 ```bash
-pip install -r src/requirements.txt
-# apply the patches in patches/ to the upstream PersonaPlex Apple Silicon server
+swift build --product audio-server -c release --disable-sandbox
+./scripts/build_mlx_metallib.sh release
 ```
 
 **Windows / WSL2 host** — build the ROS 2 workspace:
@@ -102,17 +105,19 @@ colcon build --packages-select personaplex_bridge voice_task_executor
 source install/setup.bash
 ```
 
+From the repository root, the `Makefile` provides convenience targets: `make build` (colcon build of both packages), `make test` (run the NLU test suite), and `make clean` (remove `build/ install/ log/`).
+
 Import the scripts in `unity_scripts/` into a Unity 2022.3 project configured with the ROS-TCP-Connector, and set the ROS IP/port in the scene's `ROSConnectionManager`.
 
 ---
 
 ## Running
 
-**1. Start the two inference servers on the Apple Silicon host** (two isolated processes):
+**1. Start the two inference servers on the Apple Silicon host** (two isolated processes, run from the built fork directory):
 
 ```bash
-python audio_server.py --mode asr  --port 8080
-python audio_server.py --mode pp   --port 8081
+.build/release/audio-server --mode asr --port 8080 --host 0.0.0.0
+.build/release/audio-server --mode pp  --port 8081 --host 0.0.0.0
 ```
 
 **2. Launch the ROS 2 stack on the Windows / WSL2 host** (Gazebo + MoveIt2 + UR5e), then start the bridge and the executor:
@@ -140,11 +145,12 @@ Safety intents are dispatched at the highest priority and pre-empt a co-occurrin
 
 ## Tests
 
-The NLU module ships with a suite of **33 deterministic unit tests**, all passing:
+The NLU module ships with a suite of **33 deterministic unit tests**, all passing (plain Python, no pytest required):
 
 ```bash
-cd nlu_module
-python -m pytest        # or: python -m unittest
+cd nlu_module && python3 nlu_test.py
+# or, from the repository root:
+make test
 ```
 
 ---
