@@ -1,0 +1,44 @@
+=== waypoint home->a->ready ===
+[INFO] [1780071047.050429246] [voice_sequence_executor]: Voice Sequence Executor started
+[INFO] [1780071047.053158609] [voice_sequence_executor]: Waiting for /move_action server...
+[INFO] [1780071047.055630477] [voice_sequence_executor]: MoveIt2 action server connected
+[INFO] [1780071177.229097558] [voice_sequence_executor]: Waypoint sequence: ['home', 'a', 'ready']
+[INFO] [1780071177.230258719] [voice_sequence_executor]: Waypoint 1/3: home
+[INFO] [1780071177.641327699] [voice_sequence_executor]: Waypoint 'home' result: SUCCEEDED
+[INFO] [1780071177.642343575] [voice_sequence_executor]: Waypoint 2/3: a
+[INFO] [1780071189.369674887] [voice_sequence_executor]: Waypoint 'a' result: SUCCEEDED
+[INFO] [1780071189.370783088] [voice_sequence_executor]: Waypoint 3/3: ready
+[INFO] [1780071200.181237641] [voice_sequence_executor]: Waypoint 'ready' result: SUCCEEDED
+[INFO] [1780071200.182260514] [voice_sequence_executor]: Waypoint sequence complete
+[INFO] [1780071226.400440983] [voice_sequence_executor]: Pick-place: pick='b' place='c'
+[INFO] [1780071247.508390670] [voice_sequence_executor]: Move to pick 'b' result: ERROR_-4
+[WARN] [1780071247.509666679] [voice_sequence_executor]: Pick-place aborted: could not reach pick pose
+[INFO] [1780071303.677802003] [voice_sequence_executor]: Pick-place: pick='a' place='ready'
+[INFO] [1780071303.782664521] [voice_sequence_executor]: Move to pick 'a' result: ERROR_-4
+[WARN] [1780071303.784142129] [voice_sequence_executor]: Pick-place aborted: could not reach pick pose
+[INFO] [1780071473.960504005] [voice_sequence_executor]: Pick-place: pick='a' place='ready'
+[INFO] [1780071484.717046101] [voice_sequence_executor]: Move to pick 'a' result: SUCCEEDED
+[INFO] [1780071484.718211219] [voice_sequence_executor]: Simulated grasp (no gripper in sim): closing on object at 'a'
+[INFO] [1780071486.221163941] [voice_sequence_executor]: Simulated grasp complete (object attached: simulated)
+[INFO] [1780071498.086554876] [voice_sequence_executor]: Move to place 'ready' result: SUCCEEDED
+[INFO] [1780071498.087553095] [voice_sequence_executor]: Simulated release (no gripper in sim): opening at 'ready'
+[INFO] [1780071499.589791127] [voice_sequence_executor]: Pick-place complete (simulated grasp)
+
+=== pick_place a->ready (after direct-home recovery) ===
+[WARN] [1780071303.784142129] [voice_sequence_executor]: Pick-place aborted: could not reach pick pose
+[INFO] [1780071473.960504005] [voice_sequence_executor]: Pick-place: pick='a' place='ready'
+[INFO] [1780071484.717046101] [voice_sequence_executor]: Move to pick 'a' result: SUCCEEDED
+[INFO] [1780071484.718211219] [voice_sequence_executor]: Simulated grasp (no gripper in sim): closing on object at 'a'
+[INFO] [1780071486.221163941] [voice_sequence_executor]: Simulated grasp complete (object attached: simulated)
+[INFO] [1780071498.086554876] [voice_sequence_executor]: Move to place 'ready' result: SUCCEEDED
+[INFO] [1780071498.087553095] [voice_sequence_executor]: Simulated release (no gripper in sim): opening at 'ready'
+[INFO] [1780071499.589791127] [voice_sequence_executor]: Pick-place complete (simulated grasp)
+
+=== pose-target pick_place b failure (honest) ===
+[INFO] [1780071247.508390670] [voice_sequence_executor]: Move to pick 'b' result: ERROR_-4
+[WARN] [1780071247.509666679] [voice_sequence_executor]: Pick-place aborted: could not reach pick pose
+[INFO] [1780071303.782664521] [voice_sequence_executor]: Move to pick 'a' result: ERROR_-4
+controller abort cause:
+[gzserver-4] [ERROR] [1780071247.437882169] [tolerances]: State tolerances failed for joint 3:
+[gzserver-4] [ERROR] [1780071247.438014568] [tolerances]: Position Error: 0.211859, Position Tolerance: 0.200000
+[gzserver-4] [WARN] [1780071247.438053933] [joint_trajectory_controller]: Aborted due to state tolerance violation

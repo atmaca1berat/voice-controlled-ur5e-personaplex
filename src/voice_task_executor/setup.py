@@ -21,6 +21,8 @@ setup(
     entry_points={
         "console_scripts": [
             "voice_task_executor_node = voice_task_executor.voice_task_executor_node:main",
+            "voice_safety_checker_node = voice_task_executor.voice_safety_checker_node:main",
+            "voice_sequence_executor_node = voice_task_executor.voice_sequence_executor_node:main",
         ],
     },
 )

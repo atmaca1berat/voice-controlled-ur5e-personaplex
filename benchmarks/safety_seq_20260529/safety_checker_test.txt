@@ -1,0 +1,22 @@
+=== voice_safety_checker test (7 cases) ===
+[INFO] [1780071101.987102422] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1780071103.490278957] [voice_safety_checker]: Accepted motion.move_to params={'target': 'b'}
+[WARN] [1780071104.992271502] [voice_safety_checker]: Rejected motion.move_to target 'target_joints': wrist_3_joint 7.0 outside [-6.2832, 6.2832]
+[WARN] [1780071106.494584387] [voice_safety_checker]: Rejected motion.move_to target 'target_pose': reach 1.5 exceeds MAX_REACH 0.85
+[WARN] [1780071107.997180451] [voice_safety_checker]: Rejected motion.move_to target 'target_pose': inside forbidden zone x=0.35 y=-0.4 z=0.25
+[WARN] [1780071109.499715534] [voice_safety_checker]: Rejected motion.move_to: velocity_scaling 0.5 exceeds max 0.1
+[WARN] [1780071111.003079787] [voice_safety_checker]: Rejected motion.move_to: unknown named target 'zzz'
+[INFO] [1780071137.925595863] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1780071177.227732370] [voice_safety_checker]: Accepted motion.waypoint params={'waypoints': ['home', 'a', 'ready']}
+[INFO] [1780071303.675348874] [voice_safety_checker]: Accepted motion.pick_place params={'pick': 'a', 'place': 'ready'}
+[INFO] [1780071388.412905142] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1780071473.955053297] [voice_safety_checker]: Accepted motion.pick_place params={'pick': 'a', 'place': 'ready'}
+
+=== /voice_command/checked forwarded (only accepted reach executor) ===
+data: '{"intent": "motion.go_home", "parameters": {}}'
+data: '{"intent": "motion.move_to", "parameters": {"target": "b"}}'
+
+=== executor received via gate (only accepted intents) ===
+[INFO] [1780071101.990104111] [voice_task_executor]: Intent: motion.go_home priority=None params={}
+[INFO] [1780071103.497305462] [voice_task_executor]: Intent: motion.move_to priority=None params={'target': 'b'}
+[INFO] [1780071137.927598897] [voice_task_executor]: Intent: motion.go_home priority=None params={}
