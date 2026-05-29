@@ -1,0 +1,30 @@
+[INFO] [1780052458.240436758] [voice_task_executor]: Goal completed successfully
+[INFO] [1780052472.607511700] [voice_task_executor]: Cancelling current goal
+[INFO] [1780052478.640453881] [voice_task_executor]: Goal not active or already finished
+[INFO] [1780052478.641650005] [voice_task_executor]: Goal completed successfully
+[INFO] [1780052531.759500985] [voice_task_executor]: Goal completed successfully
+[INFO] [1780052545.377041517] [voice_task_executor]: Goal completed successfully
+[INFO] [1780052623.738587513] [voice_task_executor]: Goal completed successfully
+[INFO] [1780052629.123589945] [voice_task_executor]: Cancelling current goal
+[INFO] [1780052638.511580227] [voice_task_executor]: Goal not active or already finished
+[INFO] [1780052638.512594372] [voice_task_executor]: Goal completed successfully
+[INFO] [1780052676.249850342] [voice_task_executor]: Goal completed successfully
+[INFO] [1780052680.159846127] [voice_task_executor]: Cancelling current goal
+[INFO] [1780052687.743201399] [voice_task_executor]: Goal not active or already finished
+[INFO] [1780052687.744228732] [voice_task_executor]: Goal completed successfully
+[INFO] [1780052700.399738165] [voice_task_executor]: Goal completed successfully
+[INFO] [1780052707.587287781] [voice_task_executor]: Cancelling current goal
+[INFO] [1780052715.165208131] [voice_task_executor]: Goal not active or already finished
+[INFO] [1780052715.166454573] [voice_task_executor]: Goal completed successfully
+[INFO] [1780052727.852832378] [voice_task_executor]: Goal completed successfully
+[INFO] [1780052733.231880720] [voice_task_executor]: Cancelling current goal
+[INFO] [1780052753.003824500] [voice_task_executor]: Goal not active or already finished
+[INFO] [1780052756.162739277] [voice_task_executor]: Cancelling current goal
+[INFO] [1780052763.777174316] [voice_task_executor]: Goal completed successfully
+[INFO] [1780052763.782417708] [voice_task_executor]: Goal not active or already finished
+[INFO] [1780052763.783397921] [voice_task_executor]: Goal completed successfully
+[INFO] [1780052763.803610384] [voice_task_executor]: Goal completed successfully
+[INFO] [1780052777.936680481] [voice_task_executor]: Goal completed successfully
+[INFO] [1780052781.842581954] [voice_task_executor]: Cancelling current goal
+[INFO] [1780052789.427876784] [voice_task_executor]: Goal not active or already finished
+[INFO] [1780052789.429008932] [voice_task_executor]: Goal completed successfully

@@ -1,0 +1,5 @@
+[INFO] [1780053413.050049592] [cancel_test]: [t=0.004] goal accepted, executing
+[INFO] [1780053419.083309240] [cancel_test]: [t=6.079] >>> CANCEL (robot moving) <<<
+[INFO] [1780053419.087771815] [cancel_test]: [t=6.083] cancel response: goals_canceling=1
+[INFO] [1780053419.131887851] [cancel_test]: [t=6.127] FINAL STATUS = CANCELED (5)
+[INFO] [1780053419.132764746] [cancel_test]: REAL PREEMPTION

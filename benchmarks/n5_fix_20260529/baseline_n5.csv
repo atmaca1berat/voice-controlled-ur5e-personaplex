@@ -1,0 +1,6 @@
+trial,label,cancel_to_stop_latency_s,controller_final_status_code,controller_final_status,travel_after_stop_rad,max_speed_rad_s
+1,baseline,7.5841,4,SUCCEEDED,2.9474,0.4179
+2,baseline,7.5784,4,SUCCEEDED,2.9435,0.4185
+3,baseline,3.486,4,SUCCEEDED,2.141,1.3089
+4,baseline,7.6067,4,SUCCEEDED,2.9555,0.4199
+5,baseline,7.5907,4,SUCCEEDED,2.9505,0.4153

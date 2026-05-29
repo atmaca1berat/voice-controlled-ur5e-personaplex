@@ -1,0 +1,6 @@
+trial,label,cancel_to_stop_latency_s,controller_final_status_code,controller_final_status,travel_after_stop_rad,max_speed_rad_s
+1,fixed,0.1189,5,CANCELED,0.0,0.4122
+2,fixed,0.11,5,CANCELED,0.0,0.4334
+3,fixed,0.1101,5,CANCELED,0.0,0.4183
+4,fixed,0.1194,5,CANCELED,0.0,0.4125
+5,fixed,0.1188,5,CANCELED,0.0,0.4158

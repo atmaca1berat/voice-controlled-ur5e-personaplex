@@ -1,0 +1,9 @@
+# ros2 action list
+/execute_trajectory
+/joint_trajectory_controller/follow_joint_trajectory
+/move_action
+/scaled_joint_trajectory_controller/follow_joint_trajectory
+
+# ros2 control list_controllers
+[92mjoint_state_broadcaster    [0m joint_state_broadcaster/JointStateBroadcaster          [92mactive[0m
+[92mjoint_trajectory_controller[0m joint_trajectory_controller/JointTrajectoryController  [92mactive[0m

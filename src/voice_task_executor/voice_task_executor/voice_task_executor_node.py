@@ -5,6 +5,7 @@ import rclpy
 from rclpy.action import ActionClient
 from rclpy.node import Node
 
+from action_msgs.srv import CancelGoal
 from std_msgs.msg import String
 from geometry_msgs.msg import Pose, PoseStamped
 from sensor_msgs.msg import JointState
@@ -23,6 +24,8 @@ from shape_msgs.msg import SolidPrimitive
 PLANNING_GROUP = "ur_manipulator"
 BASE_FRAME = "base_link"
 END_EFFECTOR_LINK = "tool0"
+
+TRAJECTORY_CONTROLLER_ACTION = "/joint_trajectory_controller/follow_joint_trajectory"
 
 NAMED_JOINT_TARGETS = {
     "home": [0.0, -math.pi / 2.0, 0.0, -math.pi / 2.0, 0.0, 0.0],
@@ -52,6 +55,9 @@ class VoiceTaskExecutor(Node):
             String, "/voice_command/parsed", self.parsed_callback, 10
         )
         self.move_group_client = ActionClient(self, MoveGroup, "/move_action")
+        self.traj_cancel_client = self.create_client(
+            CancelGoal, TRAJECTORY_CONTROLLER_ACTION + "/_action/cancel_goal"
+        )
         self.current_goal_handle = None
         self.get_logger().info("Voice Task Executor started")
         self.get_logger().info("Planning group: " + PLANNING_GROUP)
@@ -105,22 +111,40 @@ class VoiceTaskExecutor(Node):
             self.get_logger().warn("Unhandled intent: " + intent)
 
     def cancel_current_goal(self):
+        self._cancel_trajectory_controller()
         if self.current_goal_handle is None:
-            self.get_logger().info("No active goal to cancel")
+            self.get_logger().info("No active MoveGroup goal to cancel")
             return
-        self.get_logger().info("Cancelling current goal")
+        self.get_logger().info("Cancelling current MoveGroup goal")
         future = self.current_goal_handle.cancel_goal_async()
         future.add_done_callback(self._cancel_done_callback)
+
+    def _cancel_trajectory_controller(self):
+        if not self.traj_cancel_client.service_is_ready():
+            self.get_logger().warn("Trajectory controller cancel service not available")
+            return
+        future = self.traj_cancel_client.call_async(CancelGoal.Request())
+        future.add_done_callback(self._traj_cancel_done_callback)
+
+    def _traj_cancel_done_callback(self, future):
+        response = future.result()
+        if response is None:
+            self.get_logger().error("Trajectory cancel call returned None")
+            return
+        if len(response.goals_canceling) > 0:
+            self.get_logger().info("Trajectory controller goal preempted: " + str(len(response.goals_canceling)))
+        else:
+            self.get_logger().info("No active trajectory on controller to cancel")
 
     def _cancel_done_callback(self, future):
         result = future.result()
         if result is None:
-            self.get_logger().error("Cancel call returned None")
+            self.get_logger().error("MoveGroup cancel call returned None")
             return
         if len(result.goals_canceling) > 0:
-            self.get_logger().info("Goal cancelled successfully")
+            self.get_logger().info("MoveGroup goal cancelled")
         else:
-            self.get_logger().info("Goal not active or already finished")
+            self.get_logger().info("MoveGroup goal not active or already finished")
         self.current_goal_handle = None
 
     def execute_named_joint(self, name: str):

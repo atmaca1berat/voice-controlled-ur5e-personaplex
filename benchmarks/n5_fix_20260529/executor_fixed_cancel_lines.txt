@@ -1,0 +1,18 @@
+[INFO] [1780053101.674612641] [voice_task_executor]: Cancelling current MoveGroup goal
+[INFO] [1780053101.676505514] [voice_task_executor]: Trajectory controller goal preempted: 1
+[INFO] [1780053101.716400764] [voice_task_executor]: MoveGroup goal not active or already finished
+[INFO] [1780053135.614502513] [voice_task_executor]: Cancelling current MoveGroup goal
+[INFO] [1780053135.616319897] [voice_task_executor]: Trajectory controller goal preempted: 1
+[INFO] [1780053135.654210190] [voice_task_executor]: MoveGroup goal not active or already finished
+[INFO] [1780053153.807124140] [voice_task_executor]: Cancelling current MoveGroup goal
+[INFO] [1780053153.809418473] [voice_task_executor]: Trajectory controller goal preempted: 1
+[INFO] [1780053153.847978589] [voice_task_executor]: MoveGroup goal not active or already finished
+[INFO] [1780053172.004605662] [voice_task_executor]: Cancelling current MoveGroup goal
+[INFO] [1780053172.006943793] [voice_task_executor]: Trajectory controller goal preempted: 1
+[INFO] [1780053172.038791017] [voice_task_executor]: MoveGroup goal not active or already finished
+[INFO] [1780053190.181332728] [voice_task_executor]: Cancelling current MoveGroup goal
+[INFO] [1780053190.183312139] [voice_task_executor]: Trajectory controller goal preempted: 1
+[INFO] [1780053190.221639920] [voice_task_executor]: MoveGroup goal not active or already finished
+[INFO] [1780053208.386550997] [voice_task_executor]: Cancelling current MoveGroup goal
+[INFO] [1780053208.388578496] [voice_task_executor]: Trajectory controller goal preempted: 1
+[INFO] [1780053208.420155827] [voice_task_executor]: MoveGroup goal not active or already finished
