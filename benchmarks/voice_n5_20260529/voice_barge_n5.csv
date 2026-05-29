@@ -1,0 +1,6 @@
+trial,label,audio_published,stop_to_halt_latency_s,controller_final_status_code,controller_final_status,travel_after_stop_rad,max_speed_rad_s
+1,voice,True,3.754,5,CANCELED,1.9009,1.8803
+2,voice,True,3.0929,5,CANCELED,1.7057,1.9875
+3,voice,True,3.1856,5,CANCELED,1.6453,2.2737
+4,voice,True,3.9225,5,CANCELED,2.0535,2.0319
+5,voice,True,3.7199,5,CANCELED,1.8793,2.3625
