@@ -50,7 +50,7 @@ The two hosts must be on the same network. The bridge reaches the inference serv
 ├── docs/              Supporting documentation
 ├── nlu_module/        Rule-based NLU module (Python, 13 intents) + 33-test suite
 ├── patches/           Modifications applied to the upstream Apple Silicon PersonaPlex server
-├── src/               ROS 2 bridge node and MoveIt2 voice task executor
+├── src/               ROS 2 bridge node, voice task executor, safety checker, sequence executor
 ├── test_scripts/      Test/measurement scripts and audio samples
 ├── unity_scripts/     Unity C# scripts (MicPublisher, AudioSubscriber, TranscriptDisplay)
 ├── LICENSE            MIT
@@ -125,6 +125,8 @@ Import the scripts in `unity_scripts/` into a Unity 2022.3 project configured wi
 ```bash
 ros2 run personaplex_bridge bridge_node
 ros2 run voice_task_executor voice_task_executor_node
+ros2 run voice_task_executor voice_safety_checker_node
+ros2 run voice_task_executor voice_sequence_executor_node
 ```
 
 **3. Open the Unity operator client**, confirm the ROS connection, hold the push-to-talk key (Space), speak a command (for example, *"go home"*), and release. To interrupt an active motion, hold the key and speak *"stop"*.
@@ -140,6 +142,20 @@ Thirteen intents across three categories (see the thesis, Appendix A):
 - **Query (3):** `where_are_you`, `status`, `current_position`
 
 Safety intents are dispatched at the highest priority and pre-empt a co-occurring motion command within the same utterance.
+
+The system additionally includes a **pre-execution safety gate** (`voice_safety_checker_node`) that validates commands against joint limits, workspace reach, forbidden-zone bounds, and velocity/acceleration envelopes before forwarding them to the executor, and a **sequence executor** (`voice_sequence_executor_node`) that chains named-joint waypoint goals and simulated pick-and-place operations.
+
+---
+
+## Demo videos
+
+Five demonstration clips are available as release assets on the [v1.0-final release](https://github.com/atmaca1berat/voice-controlled-ur5e-personaplex/releases/tag/v1.0-final):
+
+1. Voice-controlled go_home (23 s)
+2. Voice-controlled move_to_a (22 s)
+3. Barge-in cancellation (13 s)
+4. Safety gate rejection (28 s)
+5. Waypoint sequence (44 s)
 
 ---
 
