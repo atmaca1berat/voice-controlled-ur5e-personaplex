@@ -2,7 +2,7 @@
 
 Real-time full-duplex voice control of a simulated Universal Robots UR5e industrial manipulator, integrating **NVIDIA PersonaPlex** (MLX 4-bit on Apple Silicon), **Qwen3-ASR**, **ROS 2 Humble**, **MoveIt2**, **Gazebo**, and **Unity 2022.3**.
 
-This repository accompanies the graduation thesis *"NVIDIA PersonaPlex for Real-Time Full-Duplex Voice-Controlled Industrial Robot Control"* and contains all source code, the modified inference-server patches, the natural language understanding (NLU) module with its 33-test suite, the Unity operator scripts, and the raw experimental logs from the measurement campaign of 21 May 2026.
+This repository accompanies the graduation thesis *"NVIDIA PersonaPlex for Real-Time Full-Duplex Voice-Controlled Industrial Robot Control"* and contains all source code, the modified inference-server patches, the natural language understanding (NLU) module with its 33-test suite, the Unity operator scripts, and the raw experimental logs from the measurement campaigns of 21 May 2026 (voice-to-motion and PersonaPlex latency) and 29 May 2026 (barge-in cancellation, safety gate, and sequence executor).
 
 - **Author:** Berat Atmaca (2019556012), Çukurova University, Department of Computer Engineering
 - **Supervisor:** Lect. PhD Yunus Emre Çoğurcu
@@ -17,7 +17,7 @@ The system lets an operator control a simulated UR5e with spoken English command
 Measured end-to-end performance (n = 5 trials per scenario):
 
 - Voice-to-motion latency (go home): **5.04 ± 0.75 s**
-- Barge-in cancellation latency: **5.57 ± 0.73 s**
+- Barge-in cancellation latency (full voice, spoken stop to halt): **3.54 ± 0.33 s** (controller-level preemption: 0.115 ± 0.004 s)
 
 See the thesis (Section 4) and `benchmarks/` for the full results and raw logs.
 

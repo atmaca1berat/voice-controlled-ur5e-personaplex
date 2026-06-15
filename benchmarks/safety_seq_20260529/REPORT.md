@@ -45,7 +45,7 @@ worker thread). Subscribes `/voice_command/parsed`. Handles `motion.waypoint`
 
 ### Waypoint: home -> a -> ready
 
-5/5 steps reported SUCCEEDED in order (see `sequence_test.txt`):
+3/3 waypoints reported SUCCEEDED in order (see `sequence_test.txt`):
 - home: SUCCEEDED
 - a: SUCCEEDED (~11.7 s, 0.1 vel scaling)
 - ready: SUCCEEDED (~10.8 s)
