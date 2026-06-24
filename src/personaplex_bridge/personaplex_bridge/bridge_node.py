@@ -13,7 +13,7 @@ from std_msgs.msg import String
 from .nlu_module import NLUModule
 
 
-MAC_HOST = "172.21.61.203"
+MAC_HOST = "192.168.1.102"
 ASR_PORT = 8080
 PP_PORT = 8081
 ASR_HTTP_BASE = f"http://{MAC_HOST}:{ASR_PORT}"
