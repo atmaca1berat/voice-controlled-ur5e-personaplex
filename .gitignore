@@ -24,6 +24,7 @@ wheels/
 .DS_Store
 *.log
 !benchmarks/n5_tests_20260521/*.log
+!benchmarks/n15_revision_20260624/*.log
 install/
 build/
 log/

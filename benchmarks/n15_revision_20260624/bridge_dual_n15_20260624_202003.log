@@ -1,0 +1,155 @@
+[INFO] [1782321605.002026089] [personaplex_bridge]: PersonaPlex Bridge node started
+[INFO] [1782321605.002511489] [personaplex_bridge]: ASR HTTP: http://192.168.1.102:8080
+[INFO] [1782321605.002973989] [personaplex_bridge]: PP HTTP: http://192.168.1.102:8081
+[INFO] [1782321605.003320189] [personaplex_bridge]: Voice: NATF0
+[INFO] [1782321605.005081489] [personaplex_bridge]: HTTP session ready, waiting for audio...
+[INFO] [1782321663.666182587] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782321664.072285622] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782321664.073258522] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782321664.074874022] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782321666.971192973] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782321666.971883573] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782321677.497021008] [personaplex_bridge]: Agent transcript: robot control. How can I help?
+[INFO] [1782321677.497480208] [personaplex_bridge]: Published /voice_command/agent_text: robot control. How can I help?
+[INFO] [1782321677.499884809] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782321677.500725209] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
+[INFO] [1782321728.054833377] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782321728.565689324] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782321728.566539724] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782321728.567620524] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782321731.248272269] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782321731.249072669] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782321740.847371860] [personaplex_bridge]: Agent transcript: control system, how can I help?
+[INFO] [1782321740.847819560] [personaplex_bridge]: Published /voice_command/agent_text: control system, how can I help?
+[INFO] [1782321740.849873360] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782321740.850674360] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
+[INFO] [1782321792.319065776] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782321792.914983837] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782321792.915991238] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782321792.917026138] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782321797.241465380] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782321797.242147980] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782321805.257538925] [personaplex_bridge]: Agent transcript: robot control. How can I assist you today? Great, just
+[INFO] [1782321805.258177525] [personaplex_bridge]: Published /voice_command/agent_text: robot control. How can I assist you today? Great, just
+[INFO] [1782321805.260283826] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782321805.261125626] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
+[INFO] [1782321854.653260185] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782321855.320217067] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782321855.321127467] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782321855.322382367] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782321858.474784756] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782321858.475325056] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782321867.306173788] [personaplex_bridge]: Agent transcript: Control Assistance. How can I help you today?
+[INFO] [1782321867.306610788] [personaplex_bridge]: Published /voice_command/agent_text: Control Assistance. How can I help you today?
+[INFO] [1782321867.308658588] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782321867.309469588] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
+[INFO] [1782321920.978752409] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782321921.375000349] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782321921.375895549] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782321921.377212249] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782321925.510279363] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782321925.510822563] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782321933.739010598] [personaplex_bridge]: Agent transcript: robot control. How can I help?
+[INFO] [1782321933.739424798] [personaplex_bridge]: Published /voice_command/agent_text: robot control. How can I help?
+[INFO] [1782321933.741222698] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782321933.742251198] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
+[INFO] [1782321983.357630044] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782321983.804416285] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782321983.805350286] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782321983.806793286] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782321988.580065933] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782321988.580597933] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782321996.031583454] [personaplex_bridge]: Agent transcript: robot control. How can I assist you today?
+[INFO] [1782321996.032107254] [personaplex_bridge]: Published /voice_command/agent_text: robot control. How can I assist you today?
+[INFO] [1782321996.034303754] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782321996.034948154] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
+[INFO] [1782322050.215490799] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782322051.100466666] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782322051.101606866] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782322051.103374666] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782322055.912677946] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782322055.913261946] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782322063.540551584] [personaplex_bridge]: Agent transcript: control. How can I help today?
+[INFO] [1782322063.541058584] [personaplex_bridge]: Published /voice_command/agent_text: control. How can I help today?
+[INFO] [1782322063.542999384] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782322063.543723884] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
+[INFO] [1782322112.057555590] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782322112.604448346] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782322112.605621546] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782322112.607602346] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782322116.587073853] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782322116.587933053] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782322124.793293216] [personaplex_bridge]: Agent transcript: robot control. How can I assist you today?
+[INFO] [1782322124.793778316] [personaplex_bridge]: Published /voice_command/agent_text: robot control. How can I assist you today?
+[INFO] [1782322124.795529617] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782322124.796031917] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
+[INFO] [1782322176.358793191] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782322176.856543641] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782322176.857256741] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782322176.858513741] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782322181.559892110] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782322181.560476510] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782322189.172660669] [personaplex_bridge]: Agent transcript: robot control. How can I assist you today?
+[INFO] [1782322189.173091269] [personaplex_bridge]: Published /voice_command/agent_text: robot control. How can I assist you today?
+[INFO] [1782322189.174627169] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782322189.175118869] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
+[INFO] [1782322242.610407087] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782322243.242449353] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782322243.243084553] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782322243.244036853] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782322247.935484872] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782322247.936191872] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782322255.607153496] [personaplex_bridge]: Agent transcript: robot control. How can I help you today?
+[INFO] [1782322255.608072496] [personaplex_bridge]: Published /voice_command/agent_text: robot control. How can I help you today?
+[INFO] [1782322255.609887996] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782322255.610429596] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
+[INFO] [1782322307.021812572] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782322307.675898642] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782322307.677022242] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782322307.678365842] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782322311.808196467] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782322311.808836267] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782322320.280371237] [personaplex_bridge]: Agent transcript: robot control. How can I assist you today?
+[INFO] [1782322320.280892737] [personaplex_bridge]: Published /voice_command/agent_text: robot control. How can I assist you today?
+[INFO] [1782322320.282528737] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782322320.283183737] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
+[INFO] [1782322371.438534366] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782322372.349609661] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782322372.350585561] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782322372.351761861] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782322375.709369809] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782322375.710600709] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782322384.385118417] [personaplex_bridge]: Agent transcript: control. How can I help you today?
+[INFO] [1782322384.385565517] [personaplex_bridge]: Published /voice_command/agent_text: control. How can I help you today?
+[INFO] [1782322384.387128717] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782322384.387967917] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
+[INFO] [1782322437.623222511] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782322438.456238898] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782322438.457084899] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782322438.458398099] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782322442.301089803] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782322442.301821503] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782322450.816735916] [personaplex_bridge]: Agent transcript: processing system. How can I assist you today? Oh, sorry.
+[INFO] [1782322450.817203117] [personaplex_bridge]: Published /voice_command/agent_text: processing system. How can I assist you today? Oh, sorry.
+[INFO] [1782322450.818901917] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782322450.819545317] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
+[INFO] [1782322497.741502546] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782322497.877153319] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782322497.877931623] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782322497.879489531] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782322501.769067806] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782322501.769691190] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782322510.331165503] [personaplex_bridge]: Agent transcript: industrial robots. How can I help today? Okay, no problem. Let me
+[INFO] [1782322510.331709876] [personaplex_bridge]: Published /voice_command/agent_text: industrial robots. How can I help today? Okay, no problem. Let me
+[INFO] [1782322510.333500714] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782322510.334181505] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
+[INFO] [1782322563.009799856] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782322563.396089380] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782322563.396744967] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782322563.397725798] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782322567.061358946] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782322567.061949024] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782322575.757763149] [personaplex_bridge]: Agent transcript: robot control. How can I assist you today?
+[INFO] [1782322575.758297420] [personaplex_bridge]: Published /voice_command/agent_text: robot control. How can I assist you today?
+[INFO] [1782322575.759834225] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782322575.760315189] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
