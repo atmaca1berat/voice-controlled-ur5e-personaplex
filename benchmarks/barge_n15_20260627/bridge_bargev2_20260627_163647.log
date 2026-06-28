@@ -1,0 +1,215 @@
+[INFO] [1782567409.342548356] [personaplex_bridge]: PersonaPlex Bridge node started
+[INFO] [1782567409.343198472] [personaplex_bridge]: ASR HTTP: http://192.168.1.103:8080
+[INFO] [1782567409.343531113] [personaplex_bridge]: PP HTTP: http://192.168.1.103:8081
+[INFO] [1782567409.343859224] [personaplex_bridge]: Voice: NATF0
+[INFO] [1782567409.346209471] [personaplex_bridge]: HTTP session ready, waiting for audio...
+[INFO] [1782567528.974929666] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782567529.526903594] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782567529.527750480] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782567529.529752845] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782567529.581306839] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782567532.534180488] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782567532.535355817] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782567533.436305012] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782567533.537645392] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782567533.538569125] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782567533.539900903] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782567533.611491716] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782567533.691111077] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782567533.692023692] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782567588.576839223] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782567588.812637547] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782567588.813721130] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782567588.815627261] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782567588.871824671] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782567589.032374271] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782567589.033331860] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782567593.054475067] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782567594.040148550] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782567594.041244330] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782567594.043479361] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782567594.109639303] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782567594.217745429] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782567594.218626498] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782567648.094269213] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782567648.350708405] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782567648.351604248] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782567648.353509600] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782567648.362539968] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782567648.524371240] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782567648.527010547] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782567654.046220467] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782567654.534389064] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782567654.535001550] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782567654.536619311] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782567654.611257647] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782567654.727022198] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782567654.727640488] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782567709.082121301] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782567709.859442697] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782567709.860867559] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782567709.863289804] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782567709.969815089] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782567710.126582046] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782567710.128647338] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782567715.527251567] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782567716.136681080] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782567716.137406799] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782567716.139165253] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782567716.152965819] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782567716.265103511] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782567716.265763694] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782567770.064500425] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782567770.870107471] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782567770.871020186] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782567770.872687064] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782567770.901801995] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782567771.052788805] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782567771.054818512] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782567776.466176769] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782567776.525563644] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782567776.526236337] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782567776.527765723] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782567776.634947498] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782567776.747771778] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782567776.748477511] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782567830.088547698] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782567830.460421778] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782567830.461263621] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782567830.463377815] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782567830.532265146] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782567830.716527302] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782567830.717742324] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782567837.013749898] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782567837.726849032] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782567837.727400218] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782567837.728482424] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782567837.786081254] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782567837.903539043] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782567837.904162042] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782567891.079610269] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782567892.036929031] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782567892.037815006] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782567892.039376070] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782567892.050723031] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782567892.206626423] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782567892.207671618] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782567895.564806813] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782567896.214200776] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782567896.215465501] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782567896.217580839] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782567896.273747719] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782567896.383357940] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782567896.384106304] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782567949.616624203] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782567950.608675054] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782567950.609426458] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782567950.610688269] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782567950.631316757] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782567950.786081055] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782567950.787151131] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782567954.093615041] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782567954.791990706] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782567954.792850661] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782567954.794912153] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782567954.860077460] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782567954.972132121] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782567954.973134943] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782568009.579397658] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782568010.189251326] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782568010.189946548] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782568010.191332074] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782568010.282539191] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782568010.477763049] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782568010.478764133] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782568014.055409398] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782568014.483650759] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782568014.484492667] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782568014.486501538] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782568014.658406990] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782568014.774615745] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782568014.775519325] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782568067.565649853] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782568068.999534365] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782568069.000394011] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782568069.001878946] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782568069.016400891] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782568069.170676884] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782568069.171312104] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782568072.651938293] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782568073.176504995] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782568073.177800035] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782568073.179991969] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782568073.220671224] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782568073.332950677] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782568073.335327912] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782568126.336601393] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782568127.031463850] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782568127.032740495] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782568127.034635054] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782568127.066139976] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782568127.222535265] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782568127.223166063] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782568133.299919398] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782568134.876912951] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782568134.877509722] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782568134.878873600] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782568134.963405342] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782568135.063678483] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782568135.064323480] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782568191.276750844] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782568191.797090923] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782568191.798143799] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782568191.801179264] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782568191.816238247] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782568191.974441090] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782568191.975447829] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782568197.201110712] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782568197.983112969] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782568197.984111936] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782568197.985364212] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782568198.018448685] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782568198.128344184] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782568198.129162147] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782568251.564391204] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782568252.536458998] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782568252.537172951] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782568252.538372369] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782568252.558511914] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782568252.719160354] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782568252.719744591] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782568256.006922006] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782568256.725012346] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782568256.725959957] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782568256.727841022] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782568256.757692854] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782568256.868673832] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782568256.870369563] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782568310.687212021] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782568311.257899367] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782568311.259225926] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782568311.260954358] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782568311.363070934] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782568311.513805084] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782568311.514735042] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782568315.176150077] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782568315.519095683] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782568315.519770009] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782568315.521136965] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782568315.542537864] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782568315.655793193] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782568315.656493642] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782568370.696940056] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782568371.029247151] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782568371.030168413] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782568371.031677139] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782568371.062904079] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782568371.233234079] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782568371.234342051] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782568375.161406518] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782568375.240133506] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782568375.240825617] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782568375.242136503] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782568375.459608503] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.103:8081 ssl:default [Connect call failed ('192.168.1.103', 8081)]
+[INFO] [1782568375.576348660] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782568375.577317867] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}

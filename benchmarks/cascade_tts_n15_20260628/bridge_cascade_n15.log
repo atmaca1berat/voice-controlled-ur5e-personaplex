@@ -1,0 +1,140 @@
+[INFO] [1782632326.031035170] [personaplex_bridge]: PersonaPlex Bridge node started
+[INFO] [1782632326.032260932] [personaplex_bridge]: ASR HTTP: http://192.168.1.103:8080
+[INFO] [1782632326.032754559] [personaplex_bridge]: PP HTTP: http://192.168.1.103:8081
+[INFO] [1782632326.033110961] [personaplex_bridge]: Voice: NATF0
+[INFO] [1782632326.035192289] [personaplex_bridge]: HTTP session ready, waiting for audio...
+[INFO] [1782632390.300235861] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782632391.115375002] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782632391.116093268] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782632391.516487543] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782632391.517327097] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782632391.517857745] [personaplex_bridge]: POST TTS /synthesize: Moving to home position.
+[INFO] [1782632391.748140326] [personaplex_bridge]: TTS synth_ms=50.1
+[INFO] [1782632391.748906201] [personaplex_bridge]: Published /voice_command/agent_text: Moving to home position.
+[INFO] [1782632391.750137903] [personaplex_bridge]: Published /audio/to_unity: 84652 bytes b64
+[INFO] [1782632407.697801688] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782632408.538063933] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782632408.538841748] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782632408.740030537] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782632408.740757287] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782632408.741703524] [personaplex_bridge]: POST TTS /synthesize: Moving to home position.
+[INFO] [1782632408.851096407] [personaplex_bridge]: TTS synth_ms=48.8
+[INFO] [1782632408.851694051] [personaplex_bridge]: Published /voice_command/agent_text: Moving to home position.
+[INFO] [1782632408.852501529] [personaplex_bridge]: Published /audio/to_unity: 86016 bytes b64
+[INFO] [1782632423.113198749] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782632423.758143026] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782632423.758783164] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782632424.006269383] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782632424.006878702] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782632424.007361092] [personaplex_bridge]: POST TTS /synthesize: Moving to home position.
+[INFO] [1782632424.091026261] [personaplex_bridge]: TTS synth_ms=46.2
+[INFO] [1782632424.091549252] [personaplex_bridge]: Published /voice_command/agent_text: Moving to home position.
+[INFO] [1782632424.092376048] [personaplex_bridge]: Published /audio/to_unity: 83288 bytes b64
+[INFO] [1782632438.526256208] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782632439.025586062] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782632439.026292133] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782632439.277407011] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782632439.278174311] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782632439.278680767] [personaplex_bridge]: POST TTS /synthesize: Moving to home position.
+[INFO] [1782632439.360360566] [personaplex_bridge]: TTS synth_ms=46.4
+[INFO] [1782632439.360815251] [personaplex_bridge]: Published /voice_command/agent_text: Moving to home position.
+[INFO] [1782632439.361653338] [personaplex_bridge]: Published /audio/to_unity: 83968 bytes b64
+[INFO] [1782632453.944543254] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782632454.295459058] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782632454.296118431] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782632454.459635657] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782632454.460367633] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782632454.461137726] [personaplex_bridge]: POST TTS /synthesize: Moving to home position.
+[INFO] [1782632454.560706993] [personaplex_bridge]: TTS synth_ms=52.0
+[INFO] [1782632454.561303142] [personaplex_bridge]: Published /voice_command/agent_text: Moving to home position.
+[INFO] [1782632454.562783229] [personaplex_bridge]: Published /audio/to_unity: 94208 bytes b64
+[INFO] [1782632470.826611816] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782632471.482020842] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782632471.482601573] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782632471.708949108] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782632471.709680273] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782632471.710373406] [personaplex_bridge]: POST TTS /synthesize: Moving to home position.
+[INFO] [1782632471.804413090] [personaplex_bridge]: TTS synth_ms=47.9
+[INFO] [1782632471.804994119] [personaplex_bridge]: Published /voice_command/agent_text: Moving to home position.
+[INFO] [1782632471.805962534] [personaplex_bridge]: Published /audio/to_unity: 87384 bytes b64
+[INFO] [1782632486.210211539] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782632486.727622244] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782632486.728300437] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782632486.990491199] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782632486.991310880] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782632487.002637163] [personaplex_bridge]: POST TTS /synthesize: Moving to home position.
+[INFO] [1782632487.094222142] [personaplex_bridge]: TTS synth_ms=48.4
+[INFO] [1782632487.094836631] [personaplex_bridge]: Published /voice_command/agent_text: Moving to home position.
+[INFO] [1782632487.095674304] [personaplex_bridge]: Published /audio/to_unity: 83968 bytes b64
+[INFO] [1782632503.597455161] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782632504.024663611] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782632504.025297791] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782632504.281952627] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782632504.282635085] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782632504.283136973] [personaplex_bridge]: POST TTS /synthesize: Moving to home position.
+[INFO] [1782632504.379880344] [personaplex_bridge]: TTS synth_ms=50.3
+[INFO] [1782632504.380406521] [personaplex_bridge]: Published /voice_command/agent_text: Moving to home position.
+[INFO] [1782632504.381232318] [personaplex_bridge]: Published /audio/to_unity: 94208 bytes b64
+[INFO] [1782632518.987938706] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782632519.303860535] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782632519.304925733] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782632519.541827876] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782632519.542664083] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782632519.543215941] [personaplex_bridge]: POST TTS /synthesize: Moving to home position.
+[INFO] [1782632519.645579635] [personaplex_bridge]: TTS synth_ms=50.7
+[INFO] [1782632519.646084707] [personaplex_bridge]: Published /voice_command/agent_text: Moving to home position.
+[INFO] [1782632519.646936845] [personaplex_bridge]: Published /audio/to_unity: 90796 bytes b64
+[INFO] [1782632534.900039238] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782632535.563109186] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782632535.563715362] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782632535.881018655] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782632535.882243952] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782632535.883097098] [personaplex_bridge]: POST TTS /synthesize: Moving to home position.
+[INFO] [1782632536.106661500] [personaplex_bridge]: TTS synth_ms=56.6
+[INFO] [1782632536.107480816] [personaplex_bridge]: Published /voice_command/agent_text: Moving to home position.
+[INFO] [1782632536.108625209] [personaplex_bridge]: Published /audio/to_unity: 92160 bytes b64
+[INFO] [1782632550.291386601] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782632550.900948473] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782632550.901909827] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782632551.091836549] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782632551.092823608] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782632551.093413383] [personaplex_bridge]: POST TTS /synthesize: Moving to home position.
+[INFO] [1782632551.189059937] [personaplex_bridge]: TTS synth_ms=48.5
+[INFO] [1782632551.189635998] [personaplex_bridge]: Published /voice_command/agent_text: Moving to home position.
+[INFO] [1782632551.190351209] [personaplex_bridge]: Published /audio/to_unity: 90112 bytes b64
+[INFO] [1782632565.715441592] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782632566.112526338] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782632566.113197258] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782632566.296159618] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782632566.296942192] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782632566.297896282] [personaplex_bridge]: POST TTS /synthesize: Moving to home position.
+[INFO] [1782632566.374894556] [personaplex_bridge]: TTS synth_ms=49.7
+[INFO] [1782632566.375345056] [personaplex_bridge]: Published /voice_command/agent_text: Moving to home position.
+[INFO] [1782632566.376787894] [personaplex_bridge]: Published /audio/to_unity: 90112 bytes b64
+[INFO] [1782632581.121590929] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782632581.317082251] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782632581.317826155] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782632581.577301708] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782632581.578034268] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782632581.578500461] [personaplex_bridge]: POST TTS /synthesize: Moving to home position.
+[INFO] [1782632581.679377253] [personaplex_bridge]: TTS synth_ms=48.2
+[INFO] [1782632581.679888921] [personaplex_bridge]: Published /voice_command/agent_text: Moving to home position.
+[INFO] [1782632581.680684782] [personaplex_bridge]: Published /audio/to_unity: 80556 bytes b64
+[INFO] [1782632597.010187797] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782632597.596914218] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782632597.597617610] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782632597.851250055] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782632597.851944181] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782632597.852444227] [personaplex_bridge]: POST TTS /synthesize: Moving to home position.
+[INFO] [1782632598.160343391] [personaplex_bridge]: TTS synth_ms=53.0
+[INFO] [1782632598.160945491] [personaplex_bridge]: Published /voice_command/agent_text: Moving to home position.
+[INFO] [1782632598.161995606] [personaplex_bridge]: Published /audio/to_unity: 86700 bytes b64
+[INFO] [1782632614.877731385] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782632615.871269763] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782632615.871915502] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782632616.123129005] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782632616.123883310] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782632616.124918316] [personaplex_bridge]: POST TTS /synthesize: Moving to home position.
+[INFO] [1782632616.264557333] [personaplex_bridge]: TTS synth_ms=48.4
+[INFO] [1782632616.265594328] [personaplex_bridge]: Published /voice_command/agent_text: Moving to home position.
+[INFO] [1782632616.266501562] [personaplex_bridge]: Published /audio/to_unity: 86700 bytes b64

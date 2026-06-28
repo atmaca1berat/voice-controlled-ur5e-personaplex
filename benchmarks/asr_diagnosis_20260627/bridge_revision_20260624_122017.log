@@ -1,0 +1,118 @@
+[INFO] [1782292818.657075776] [personaplex_bridge]: PersonaPlex Bridge node started
+[INFO] [1782292818.658006079] [personaplex_bridge]: ASR HTTP: http://192.168.1.102:8080
+[INFO] [1782292818.658583122] [personaplex_bridge]: PP HTTP: http://192.168.1.102:8081
+[INFO] [1782292818.658973501] [personaplex_bridge]: Voice: NATF0
+[INFO] [1782292818.661499903] [personaplex_bridge]: HTTP session ready, waiting for audio...
+[INFO] [1782293290.424990271] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782293290.551042571] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782293290.552244882] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782293290.553493936] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782293293.588782833] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782293293.589878330] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782293306.976120967] [personaplex_bridge]: Agent transcript: robot control. How can I help? Hi, I'm on a
+[INFO] [1782293306.976657498] [personaplex_bridge]: Published /voice_command/agent_text: robot control. How can I help? Hi, I'm on a
+[INFO] [1782293306.979247053] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782293306.979943710] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
+[INFO] [1782293353.202890570] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782293353.698097266] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782293353.698775866] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782293353.699880441] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782293358.924674926] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782293358.925286988] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782293375.748939548] [personaplex_bridge]: Agent transcript: How can I help today? Sure, I can
+[INFO] [1782293375.749969268] [personaplex_bridge]: Published /voice_command/agent_text: How can I help today? Sure, I can
+[INFO] [1782293375.752831449] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782293375.753984253] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
+[INFO] [1782293401.928565050] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782293402.433251809] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782293402.434590397] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782293402.436532089] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782293409.814106132] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782293409.814829523] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782293429.473377327] [personaplex_bridge]: Agent transcript: robot control. This is the voice assistant, how can I help you today?
+[INFO] [1782293429.474288118] [personaplex_bridge]: Published /voice_command/agent_text: robot control. This is the voice assistant, how can I help you today?
+[INFO] [1782293429.477606774] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782293429.478661119] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
+[INFO] [1782293449.963196310] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782293450.505050541] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782293450.505718000] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782293450.506865140] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782293457.826519904] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782293457.828662898] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782293478.639922264] [personaplex_bridge]: Agent transcript: assistant. How can I help?
+[INFO] [1782293478.640498392] [personaplex_bridge]: Published /voice_command/agent_text: assistant. How can I help?
+[INFO] [1782293478.642399691] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782293478.643157225] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
+[INFO] [1782293499.164887741] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782293499.320662143] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782293499.321374471] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782293499.322429689] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782293508.701316711] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782293508.702110173] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782293536.868402515] [personaplex_bridge]: Agent transcript: robot control. How can I help you today? All right, let me
+[INFO] [1782293536.868980569] [personaplex_bridge]: Published /voice_command/agent_text: robot control. How can I help you today? All right, let me
+[INFO] [1782293536.871191021] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782293536.872183890] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
+[INFO] [1782293546.267257922] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782293546.884832348] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782293546.885597057] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782293546.886644216] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782293555.829259725] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782293555.830268536] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782293590.991644358] [personaplex_bridge]: Agent transcript: How can I help you today? Sure, what's the target?
+[INFO] [1782293590.992345295] [personaplex_bridge]: Published /voice_command/agent_text: How can I help you today? Sure, what's the target?
+[INFO] [1782293590.994043086] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782293590.994930738] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
+[INFO] [1782293594.437972460] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782293594.649115410] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782293594.649813109] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782293594.650861179] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782293605.768266354] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782293605.769629232] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782293638.222401753] [personaplex_bridge]: Agent transcript: Robotics Control. How can I help you today?
+[INFO] [1782293638.222837763] [personaplex_bridge]: Published /voice_command/agent_text: Robotics Control. How can I help you today?
+[INFO] [1782293638.224795789] [personaplex_bridge]: PP response duration: 6.08s
+[INFO] [1782293638.225689473] [personaplex_bridge]: Published /audio/to_unity: 389120 bytes b64
+[INFO] [1782293643.022578537] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782293643.231190935] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782293643.231873083] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782293643.233118182] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782293654.499630523] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782293654.500295203] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[ERROR] [1782293680.588390582] [personaplex_bridge]: respond_via_http error: Server disconnected
+[INFO] [1782293692.095010880] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782293692.246682383] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782293692.247495149] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782293692.248806599] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782293692.282728328] [personaplex_bridge]: transcribe_via_http error: Cannot connect to host 192.168.1.102:8080 ssl:default [Connect call failed ('192.168.1.102', 8080)]
+[ERROR] [1782293692.283674495] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[INFO] [1782293739.159625322] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782293739.966600630] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782293739.967688916] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782293739.968885521] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782293740.077910111] [personaplex_bridge]: transcribe_via_http error: Cannot connect to host 192.168.1.102:8080 ssl:default [Connect call failed ('192.168.1.102', 8080)]
+[ERROR] [1782293740.078481309] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[INFO] [1782293786.506628271] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782293786.721254521] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782293786.721860428] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782293786.723050108] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782293786.786705228] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[ERROR] [1782293786.787218365] [personaplex_bridge]: transcribe_via_http error: Cannot connect to host 192.168.1.102:8080 ssl:default [Connect call failed ('192.168.1.102', 8080)]
+[INFO] [1782293835.581438649] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782293836.003150323] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782293836.003865183] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782293836.004858723] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782293836.021857366] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[ERROR] [1782293836.022730703] [personaplex_bridge]: transcribe_via_http error: Cannot connect to host 192.168.1.102:8080 ssl:default [Connect call failed ('192.168.1.102', 8080)]
+[INFO] [1782293882.636490171] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782293882.691548245] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782293882.692941823] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782293882.694392281] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782293882.713325589] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[ERROR] [1782293882.714254871] [personaplex_bridge]: transcribe_via_http error: Cannot connect to host 192.168.1.102:8080 ssl:default [Connect call failed ('192.168.1.102', 8080)]
+[INFO] [1782293930.224497019] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782293930.931335828] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782293930.931937306] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782293930.932926193] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782293930.996045513] [personaplex_bridge]: transcribe_via_http error: Cannot connect to host 192.168.1.102:8080 ssl:default [Connect call failed ('192.168.1.102', 8080)]
+[ERROR] [1782293930.996667647] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]

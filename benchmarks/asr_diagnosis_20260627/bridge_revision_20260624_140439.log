@@ -1,0 +1,124 @@
+[INFO] [1782299080.807165478] [personaplex_bridge]: PersonaPlex Bridge node started
+[INFO] [1782299080.807679850] [personaplex_bridge]: ASR HTTP: http://192.168.1.102:8080
+[INFO] [1782299080.808107426] [personaplex_bridge]: PP HTTP: http://192.168.1.102:8081
+[INFO] [1782299080.808522088] [personaplex_bridge]: Voice: NATF0
+[INFO] [1782299080.811035685] [personaplex_bridge]: HTTP session ready, waiting for audio...
+[INFO] [1782299125.205049117] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782299125.865322207] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782299125.866062203] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782299125.867191473] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782299125.894630309] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[INFO] [1782299128.851071529] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782299128.851840716] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782299214.870101351] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782299214.956851522] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782299214.957837149] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782299214.959215175] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782299215.034419307] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[INFO] [1782299215.203856760] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782299215.204581288] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782299276.325723757] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782299277.279351819] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782299277.280544035] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782299277.282012940] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782299277.306926059] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[INFO] [1782299277.467158519] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782299277.468128227] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782299322.794278681] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782299323.529491065] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782299323.530109350] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782299323.531046332] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782299323.582777438] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[INFO] [1782299323.747053063] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782299323.748067367] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782299369.767499798] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782299369.804192802] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782299369.804872374] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782299369.806087322] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782299369.883924093] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[INFO] [1782299370.055108956] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782299370.055979170] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782299416.223387590] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782299417.118714654] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782299417.119473562] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782299417.120669769] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782299417.207361423] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[INFO] [1782299417.367747709] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782299417.368488789] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782299462.692327243] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782299463.425974591] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782299463.426884627] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782299463.428349956] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782299463.435929048] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[INFO] [1782299463.603602247] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782299463.604409788] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782299509.142859893] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782299509.660054995] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782299509.661059887] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782299509.662888271] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782299509.669890186] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[INFO] [1782299509.838102153] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782299509.838819423] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782299555.630019245] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782299555.900146033] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782299555.900839945] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782299555.902208616] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782299555.974031019] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[INFO] [1782299556.133933940] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782299556.134555626] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782299602.099962643] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782299602.192697871] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782299602.193516077] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782299602.194792112] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782299602.309399636] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[INFO] [1782299602.470909122] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782299602.471588011] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782299648.515816952] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782299648.534053099] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782299648.535211881] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782299648.536612674] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782299648.570354549] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[INFO] [1782299648.733822528] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782299648.734563904] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782299695.254408085] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782299695.793896287] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782299695.794575666] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782299695.796065217] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782299695.821820816] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[INFO] [1782299695.986351009] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782299695.987101865] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782299742.203415286] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782299743.042784273] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782299743.043876733] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782299743.045380140] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782299743.106412380] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[INFO] [1782299743.265742670] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782299743.266431113] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782299788.649534685] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782299789.325060562] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782299789.326044841] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782299789.327970346] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782299789.415384609] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[INFO] [1782299789.591028212] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782299789.591736960] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782299835.528850682] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782299836.076603304] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782299836.077628447] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782299836.079205316] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782299836.088742371] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[INFO] [1782299836.240454062] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782299836.241120781] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782299882.951144236] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782299883.299115887] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782299883.300041650] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782299883.301435581] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782299883.404534009] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[INFO] [1782299883.564989243] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782299883.565760528] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}
+[INFO] [1782299929.387532285] [personaplex_bridge]: Audio chunk received from Unity: 81408 bytes b64
+[INFO] [1782299929.622812893] [personaplex_bridge]: Dispatching: ASR (8080) + PP (8081) parallel HTTP
+[INFO] [1782299929.623733796] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782299929.625713614] [personaplex_bridge]: POST PP /respond...
+[ERROR] [1782299929.644565528] [personaplex_bridge]: respond_via_http error: Cannot connect to host 192.168.1.102:8081 ssl:default [Connect call failed ('192.168.1.102', 8081)]
+[INFO] [1782299929.804566387] [personaplex_bridge]: Published /voice_command/text: Go home.
+[INFO] [1782299929.805762521] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.go_home params={}

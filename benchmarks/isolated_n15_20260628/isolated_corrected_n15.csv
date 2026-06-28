@@ -1,0 +1,16 @@
+trial,label,cancel_to_stop_latency_s,controller_final_status_code,controller_final_status,travel_after_stop_rad,max_speed_rad_s
+1,corrected,0.1195,5,CANCELED,0.0,0.4135
+2,corrected,0.1111,5,CANCELED,0.0,0.4163
+3,corrected,0.1105,5,CANCELED,0.0,0.4145
+4,corrected,0.1203,5,CANCELED,0.0,0.416
+5,corrected,0.1105,5,CANCELED,0.0,0.4145
+6,corrected,0.1197,5,CANCELED,0.0,0.4123
+7,corrected,0.1103,5,CANCELED,0.0,0.4141
+8,corrected,0.1189,5,CANCELED,0.0,0.4177
+9,corrected,0.1195,5,CANCELED,0.0,0.415
+10,corrected,0.11,5,CANCELED,0.0,0.4174
+11,corrected,0.1189,5,CANCELED,0.0,0.4149
+12,corrected,0.1114,5,CANCELED,0.0,0.4123
+13,corrected,0.1118,5,CANCELED,0.0,0.4171
+14,corrected,0.1202,5,CANCELED,0.0,0.4163
+15,corrected,0.1103,5,CANCELED,0.0,0.4129

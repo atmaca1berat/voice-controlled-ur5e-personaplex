@@ -1,0 +1,200 @@
+[WARN] [1782629239.388594502] [rcl]: Found remap rule '/voice_command/parsed:=/voice_command/checked'. This syntax is deprecated. Use '--ros-args --remap /voice_command/parsed:=/voice_command/checked' instead.
+[INFO] [1782629239.858868497] [voice_task_executor]: Voice Task Executor started
+[INFO] [1782629239.859445259] [voice_task_executor]: Planning group: ur_manipulator
+[INFO] [1782629239.859930110] [voice_task_executor]: Waiting for /move_action server...
+[INFO] [1782629240.612159404] [voice_task_executor]: MoveIt2 action server connected
+[INFO] [1782629276.892472876] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1782629276.892999125] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1782629276.896275954] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629276.898144684] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629280.350811168] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629289.900013807] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1782629289.900442966] [voice_task_executor]: Sending joint goal 'a': [3.141592653589793, -0.7853981633974483, 0.7853981633974483, -0.7853981633974483, 1.5707963267948966, 1.5707963267948966]
+[INFO] [1782629289.903031497] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629289.906318785] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629293.037438875] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782629293.037866570] [voice_task_executor]: Cancelling current MoveGroup goal
+[INFO] [1782629300.602628227] [voice_task_executor]: MoveGroup goal not active or already finished
+[INFO] [1782629300.603362729] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629302.501222562] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1782629302.501712016] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1782629302.503714737] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629302.506861683] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629313.269189839] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629315.501847934] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1782629315.502282888] [voice_task_executor]: Sending joint goal 'a': [3.141592653589793, -0.7853981633974483, 0.7853981633974483, -0.7853981633974483, 1.5707963267948966, 1.5707963267948966]
+[INFO] [1782629315.506799389] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629315.507758898] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629318.639361792] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782629318.639762800] [voice_task_executor]: Cancelling current MoveGroup goal
+[INFO] [1782629326.268640436] [voice_task_executor]: MoveGroup goal not active or already finished
+[INFO] [1782629326.269231401] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629328.165276350] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1782629328.165730390] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1782629328.167985701] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629328.170008097] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629338.889313660] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629341.175003774] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1782629341.175548112] [voice_task_executor]: Sending joint goal 'a': [3.141592653589793, -0.7853981633974483, 0.7853981633974483, -0.7853981633974483, 1.5707963267948966, 1.5707963267948966]
+[INFO] [1782629341.180743591] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629341.181994627] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629344.313060329] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782629344.313737559] [voice_task_executor]: Cancelling current MoveGroup goal
+[INFO] [1782629351.895263566] [voice_task_executor]: MoveGroup goal not active or already finished
+[INFO] [1782629351.896055389] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629353.803070567] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1782629353.803553006] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1782629353.805915195] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629353.808988116] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629364.541325366] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629366.810834757] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1782629366.811903387] [voice_task_executor]: Sending joint goal 'a': [3.141592653589793, -0.7853981633974483, 0.7853981633974483, -0.7853981633974483, 1.5707963267948966, 1.5707963267948966]
+[INFO] [1782629366.816025390] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629366.818419982] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629369.973195648] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782629369.973707798] [voice_task_executor]: Cancelling current MoveGroup goal
+[INFO] [1782629377.532505087] [voice_task_executor]: MoveGroup goal not active or already finished
+[INFO] [1782629377.533054413] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629379.411382965] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1782629379.411856550] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1782629379.414669265] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629379.417012509] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629390.129958690] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629392.417389257] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1782629392.417844068] [voice_task_executor]: Sending joint goal 'a': [3.141592653589793, -0.7853981633974483, 0.7853981633974483, -0.7853981633974483, 1.5707963267948966, 1.5707963267948966]
+[INFO] [1782629392.421010468] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629392.423854113] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629395.559499008] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782629395.559982149] [voice_task_executor]: Cancelling current MoveGroup goal
+[INFO] [1782629403.193609077] [voice_task_executor]: MoveGroup goal not active or already finished
+[INFO] [1782629403.194063690] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629405.059955802] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1782629405.060467753] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1782629405.064879953] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629405.067256553] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629415.779014865] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629418.062133121] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1782629418.062871796] [voice_task_executor]: Sending joint goal 'a': [3.141592653589793, -0.7853981633974483, 0.7853981633974483, -0.7853981633974483, 1.5707963267948966, 1.5707963267948966]
+[INFO] [1782629418.065844565] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629418.068107607] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629421.205692684] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782629421.207499065] [voice_task_executor]: Cancelling current MoveGroup goal
+[INFO] [1782629428.758812809] [voice_task_executor]: MoveGroup goal not active or already finished
+[INFO] [1782629428.759488935] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629430.640380321] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1782629430.640830162] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1782629430.644680911] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629430.647568173] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629441.358941135] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629443.646514156] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1782629443.646975768] [voice_task_executor]: Sending joint goal 'a': [3.141592653589793, -0.7853981633974483, 0.7853981633974483, -0.7853981633974483, 1.5707963267948966, 1.5707963267948966]
+[INFO] [1782629443.649506435] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629443.652658050] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629446.794032784] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782629446.794617521] [voice_task_executor]: Cancelling current MoveGroup goal
+[INFO] [1782629454.395651271] [voice_task_executor]: MoveGroup goal not active or already finished
+[INFO] [1782629454.396346417] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629456.277395102] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1782629456.277931936] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1782629456.281551587] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629456.284141066] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629466.979178182] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629469.276647885] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1782629469.277042410] [voice_task_executor]: Sending joint goal 'a': [3.141592653589793, -0.7853981633974483, 0.7853981633974483, -0.7853981633974483, 1.5707963267948966, 1.5707963267948966]
+[INFO] [1782629469.279534403] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629469.281815928] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629472.415891469] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782629472.416775519] [voice_task_executor]: Cancelling current MoveGroup goal
+[INFO] [1782629479.984407868] [voice_task_executor]: MoveGroup goal not active or already finished
+[INFO] [1782629479.984944595] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629481.870592980] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1782629481.871377995] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1782629481.879592182] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629481.880753065] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629492.527669167] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629494.879213832] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1782629494.880195052] [voice_task_executor]: Sending joint goal 'a': [3.141592653589793, -0.7853981633974483, 0.7853981633974483, -0.7853981633974483, 1.5707963267948966, 1.5707963267948966]
+[INFO] [1782629494.883587329] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629494.887100585] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629498.015387460] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782629498.015782620] [voice_task_executor]: Cancelling current MoveGroup goal
+[INFO] [1782629505.539430643] [voice_task_executor]: MoveGroup goal not active or already finished
+[INFO] [1782629505.540629807] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629507.462475886] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1782629507.462938695] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1782629507.466329759] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629507.469732024] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629518.212955251] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629520.462283790] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1782629520.463085657] [voice_task_executor]: Sending joint goal 'a': [3.141592653589793, -0.7853981633974483, 0.7853981633974483, -0.7853981633974483, 1.5707963267948966, 1.5707963267948966]
+[INFO] [1782629520.469253200] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629520.470596544] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629523.609811150] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782629523.610370824] [voice_task_executor]: Cancelling current MoveGroup goal
+[INFO] [1782629531.212661917] [voice_task_executor]: MoveGroup goal not active or already finished
+[INFO] [1782629531.213529031] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629533.124802133] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1782629533.125337693] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1782629533.129556580] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629533.130342122] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629543.826050491] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629546.131445277] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1782629546.131832159] [voice_task_executor]: Sending joint goal 'a': [3.141592653589793, -0.7853981633974483, 0.7853981633974483, -0.7853981633974483, 1.5707963267948966, 1.5707963267948966]
+[INFO] [1782629546.134534433] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629546.137661488] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629549.268746972] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782629549.269163753] [voice_task_executor]: Cancelling current MoveGroup goal
+[INFO] [1782629556.832200066] [voice_task_executor]: MoveGroup goal not active or already finished
+[INFO] [1782629556.832921660] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629558.716867219] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1782629558.717349738] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1782629558.719433021] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629558.721794114] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629569.426143323] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629571.727304877] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1782629571.727940049] [voice_task_executor]: Sending joint goal 'a': [3.141592653589793, -0.7853981633974483, 0.7853981633974483, -0.7853981633974483, 1.5707963267948966, 1.5707963267948966]
+[INFO] [1782629571.733793049] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629571.734682551] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629574.871754386] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782629574.872338932] [voice_task_executor]: Cancelling current MoveGroup goal
+[INFO] [1782629582.447160496] [voice_task_executor]: MoveGroup goal not active or already finished
+[INFO] [1782629582.447926631] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629584.319701436] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1782629584.320373199] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1782629584.324786796] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629584.328541189] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629595.051228417] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629597.318202714] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1782629597.318712100] [voice_task_executor]: Sending joint goal 'a': [3.141592653589793, -0.7853981633974483, 0.7853981633974483, -0.7853981633974483, 1.5707963267948966, 1.5707963267948966]
+[INFO] [1782629597.321433062] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629597.323922249] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629600.465700362] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782629600.466342463] [voice_task_executor]: Cancelling current MoveGroup goal
+[INFO] [1782629608.040878093] [voice_task_executor]: MoveGroup goal not active or already finished
+[INFO] [1782629608.041512412] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629609.945313934] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1782629609.945759090] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1782629609.947993669] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629609.951092851] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629620.644243033] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629622.953821360] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1782629622.954291842] [voice_task_executor]: Sending joint goal 'a': [3.141592653589793, -0.7853981633974483, 0.7853981633974483, -0.7853981633974483, 1.5707963267948966, 1.5707963267948966]
+[INFO] [1782629622.956647355] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629622.959459448] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629626.101611827] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782629626.102045188] [voice_task_executor]: Cancelling current MoveGroup goal
+[INFO] [1782629633.671425202] [voice_task_executor]: MoveGroup goal not active or already finished
+[INFO] [1782629633.671948003] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629635.578463352] [voice_task_executor]: Intent: motion.go_home priority=3 params={}
+[INFO] [1782629635.579327313] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1782629635.583038342] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629635.586483042] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629646.296260421] [voice_task_executor]: Goal completed successfully
+[INFO] [1782629648.585097437] [voice_task_executor]: Intent: motion.move_to priority=3 params={'target': 'a'}
+[INFO] [1782629648.585574117] [voice_task_executor]: Sending joint goal 'a': [3.141592653589793, -0.7853981633974483, 0.7853981633974483, -0.7853981633974483, 1.5707963267948966, 1.5707963267948966]
+[INFO] [1782629648.588602739] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782629648.591767669] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782629651.725642854] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782629651.726293137] [voice_task_executor]: Cancelling current MoveGroup goal
+[INFO] [1782629659.351610189] [voice_task_executor]: MoveGroup goal not active or already finished
+[INFO] [1782629659.352308919] [voice_task_executor]: Goal completed successfully

@@ -1,0 +1,46 @@
+[INFO] [1782628876.869654852] [barge_measure]: ===== TRIAL 1/15 (corrected) =====
+[INFO] [1782628893.026281993] [barge_measure]: Trial 1: STOP published
+[INFO] [1782628895.050616716] [barge_measure]: Trial 1: latency=0.120s status=CANCELED travel_after_stop=0.000rad max_speed=0.413
+[INFO] [1782628895.051010109] [barge_measure]: ===== TRIAL 2/15 (corrected) =====
+[INFO] [1782628911.209101963] [barge_measure]: Trial 2: STOP published
+[INFO] [1782628913.226281330] [barge_measure]: Trial 2: latency=0.111s status=CANCELED travel_after_stop=0.000rad max_speed=0.416
+[INFO] [1782628913.226730711] [barge_measure]: ===== TRIAL 3/15 (corrected) =====
+[INFO] [1782628929.371178028] [barge_measure]: Trial 3: STOP published
+[INFO] [1782628931.387421172] [barge_measure]: Trial 3: latency=0.110s status=CANCELED travel_after_stop=0.000rad max_speed=0.414
+[INFO] [1782628931.388071877] [barge_measure]: ===== TRIAL 4/15 (corrected) =====
+[INFO] [1782628947.527386840] [barge_measure]: Trial 4: STOP published
+[INFO] [1782628949.550943983] [barge_measure]: Trial 4: latency=0.120s status=CANCELED travel_after_stop=0.000rad max_speed=0.416
+[INFO] [1782628949.551509044] [barge_measure]: ===== TRIAL 5/15 (corrected) =====
+[INFO] [1782628965.717526390] [barge_measure]: Trial 5: STOP published
+[INFO] [1782628967.734011003] [barge_measure]: Trial 5: latency=0.111s status=CANCELED travel_after_stop=0.000rad max_speed=0.415
+[INFO] [1782628967.734751429] [barge_measure]: ===== TRIAL 6/15 (corrected) =====
+[INFO] [1782628983.888779748] [barge_measure]: Trial 6: STOP published
+[INFO] [1782628985.913595326] [barge_measure]: Trial 6: latency=0.120s status=CANCELED travel_after_stop=0.000rad max_speed=0.412
+[INFO] [1782628985.914275649] [barge_measure]: ===== TRIAL 7/15 (corrected) =====
+[INFO] [1782629002.073285071] [barge_measure]: Trial 7: STOP published
+[INFO] [1782629004.088095502] [barge_measure]: Trial 7: latency=0.110s status=CANCELED travel_after_stop=0.000rad max_speed=0.414
+[INFO] [1782629004.088796736] [barge_measure]: ===== TRIAL 8/15 (corrected) =====
+[INFO] [1782629020.233009576] [barge_measure]: Trial 8: STOP published
+[INFO] [1782629022.255672156] [barge_measure]: Trial 8: latency=0.119s status=CANCELED travel_after_stop=0.000rad max_speed=0.418
+[INFO] [1782629022.256005308] [barge_measure]: ===== TRIAL 9/15 (corrected) =====
+[INFO] [1782629038.411458544] [barge_measure]: Trial 9: STOP published
+[INFO] [1782629040.437700847] [barge_measure]: Trial 9: latency=0.120s status=CANCELED travel_after_stop=0.000rad max_speed=0.415
+[INFO] [1782629040.438655379] [barge_measure]: ===== TRIAL 10/15 (corrected) =====
+[INFO] [1782629056.597429590] [barge_measure]: Trial 10: STOP published
+[INFO] [1782629058.612290273] [barge_measure]: Trial 10: latency=0.110s status=CANCELED travel_after_stop=0.000rad max_speed=0.417
+[INFO] [1782629058.612869966] [barge_measure]: ===== TRIAL 11/15 (corrected) =====
+[INFO] [1782629074.772554061] [barge_measure]: Trial 11: STOP published
+[INFO] [1782629076.795655337] [barge_measure]: Trial 11: latency=0.119s status=CANCELED travel_after_stop=0.000rad max_speed=0.415
+[INFO] [1782629076.796273201] [barge_measure]: ===== TRIAL 12/15 (corrected) =====
+[INFO] [1782629092.943871527] [barge_measure]: Trial 12: STOP published
+[INFO] [1782629094.958638684] [barge_measure]: Trial 12: latency=0.111s status=CANCELED travel_after_stop=0.000rad max_speed=0.412
+[INFO] [1782629094.959049484] [barge_measure]: ===== TRIAL 13/15 (corrected) =====
+[INFO] [1782629111.097178312] [barge_measure]: Trial 13: STOP published
+[INFO] [1782629113.121460669] [barge_measure]: Trial 13: latency=0.112s status=CANCELED travel_after_stop=0.000rad max_speed=0.417
+[INFO] [1782629113.122244920] [barge_measure]: ===== TRIAL 14/15 (corrected) =====
+[INFO] [1782629129.280581651] [barge_measure]: Trial 14: STOP published
+[INFO] [1782629131.305703800] [barge_measure]: Trial 14: latency=0.120s status=CANCELED travel_after_stop=0.000rad max_speed=0.416
+[INFO] [1782629131.306515849] [barge_measure]: ===== TRIAL 15/15 (corrected) =====
+[INFO] [1782629147.486026417] [barge_measure]: Trial 15: STOP published
+[INFO] [1782629149.500792687] [barge_measure]: Trial 15: latency=0.110s status=CANCELED travel_after_stop=0.000rad max_speed=0.413
+[INFO] [1782629149.503593134] [barge_measure]: Wrote /tmp/isolated_corrected_n15.csv

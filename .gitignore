@@ -25,6 +25,10 @@ wheels/
 *.log
 !benchmarks/n5_tests_20260521/*.log
 !benchmarks/n15_revision_20260624/*.log
+!benchmarks/asr_diagnosis_20260627/*.log
+!benchmarks/barge_n15_20260627/*.log
+!benchmarks/isolated_n15_20260628/*.log
+!benchmarks/cascade_tts_n15_20260628/*.log
 install/
 build/
 log/

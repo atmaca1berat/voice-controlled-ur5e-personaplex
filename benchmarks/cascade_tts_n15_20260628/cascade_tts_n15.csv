@@ -1,0 +1,16 @@
+trial,v2m_s,asr_s,tts_synth_ms,confirmation_latency_s,intent,agent_text,status
+1,1.602,0.4004,50.1,1.4499,motion.go_home,Moving to home position.,SUCCEEDED
+2,1.4256,0.2012,48.8,1.1547,motion.go_home,Moving to home position.,SUCCEEDED
+3,1.2265,0.2475,46.2,0.9792,motion.go_home,Moving to home position.,SUCCEEDED
+4,1.0858,0.2511,46.4,0.8354,motion.go_home,Moving to home position.,SUCCEEDED
+5,0.8999,0.1635,52.0,0.6182,motion.go_home,Moving to home position.,SUCCEEDED
+6,0.8885,0.2263,47.9,0.9794,motion.go_home,Moving to home position.,SUCCEEDED
+7,1.2157,0.2622,48.4,0.8855,motion.go_home,Moving to home position.,SUCCEEDED
+8,1.0671,0.2567,50.3,0.7838,motion.go_home,Moving to home position.,SUCCEEDED
+9,0.9396,0.2369,50.7,0.659,motion.go_home,Moving to home position.,SUCCEEDED
+10,1.3151,0.3173,56.6,1.2086,motion.go_home,Moving to home position.,SUCCEEDED
+11,0.8086,0.1899,48.5,0.899,motion.go_home,Moving to home position.,SUCCEEDED
+12,0.9149,0.183,49.7,0.6613,motion.go_home,Moving to home position.,SUCCEEDED
+13,0.7918,0.2595,48.2,0.5591,motion.go_home,Moving to home position.,SUCCEEDED
+14,0.8481,0.2536,53.0,1.1518,motion.go_home,Moving to home position.,SUCCEEDED
+15,1.5305,0.2512,48.4,1.3888,motion.go_home,Moving to home position.,SUCCEEDED

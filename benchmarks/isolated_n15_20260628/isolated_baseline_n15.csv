@@ -1,0 +1,16 @@
+trial,label,cancel_to_stop_latency_s,controller_final_status_code,controller_final_status,travel_after_stop_rad,max_speed_rad_s
+1,baseline,7.5577,4,SUCCEEDED,2.9382,0.4156
+2,baseline,7.6191,4,SUCCEEDED,2.9637,0.4157
+3,baseline,7.586,4,SUCCEEDED,2.9412,0.4145
+4,baseline,7.541,4,SUCCEEDED,2.9333,0.4158
+5,baseline,7.5953,4,SUCCEEDED,2.9486,0.4154
+6,baseline,7.5373,4,SUCCEEDED,2.9343,0.4177
+7,baseline,7.578,4,SUCCEEDED,2.9436,0.416
+8,baseline,7.549,4,SUCCEEDED,2.937,0.4174
+9,baseline,7.537,4,SUCCEEDED,2.939,0.4171
+10,baseline,7.6082,4,SUCCEEDED,2.956,0.415
+11,baseline,7.5398,4,SUCCEEDED,2.9388,0.4177
+12,baseline,7.5379,4,SUCCEEDED,2.93,0.4153
+13,baseline,7.5841,4,SUCCEEDED,2.9444,0.4157
+14,baseline,7.5605,4,SUCCEEDED,2.9479,0.4157
+15,baseline,7.6069,4,SUCCEEDED,2.9564,0.4147
