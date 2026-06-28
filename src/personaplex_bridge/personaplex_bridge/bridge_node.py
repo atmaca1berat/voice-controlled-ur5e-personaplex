@@ -1,6 +1,7 @@
 import asyncio
 import base64
 import json
+import os
 import threading
 import wave
 import io
@@ -13,11 +14,29 @@ from std_msgs.msg import String
 from .nlu_module import NLUModule
 
 
-MAC_HOST = "192.168.1.102"
+MAC_HOST = os.environ.get("MAC_HOST", "192.168.1.102")
 ASR_PORT = 8080
 PP_PORT = 8081
+TTS_PORT = 8082
 ASR_HTTP_BASE = f"http://{MAC_HOST}:{ASR_PORT}"
 PP_HTTP_BASE = f"http://{MAC_HOST}:{PP_PORT}"
+TTS_HTTP_BASE = f"http://{MAC_HOST}:{TTS_PORT}"
+
+CASCADE_TTS = False
+
+INTENT_RESPONSES = {
+    "motion.go_home": "Moving to home position.",
+    "motion.move_to": "Moving to position {target}.",
+    "safety.stop": "Stopping robot.",
+    "safety.emergency_stop": "Emergency stop activated.",
+    "safety.pause": "Pausing robot.",
+    "safety.resume": "Resuming operation.",
+    "safety.slow_down": "Slowing down.",
+    "query.where_are_you": "I am currently at the home position.",
+    "query.status": "All systems are operational.",
+    "query.current_position": "Reporting current joint angles.",
+    None: "I did not understand the command.",
+}
 
 PERSONA_PROMPT = (
     "You are an industrial robot control assistant. "
@@ -59,6 +78,7 @@ class PersonaPlexBridge(Node):
         )
         self.nlu = NLUModule()
         self.audio_queue = asyncio.Queue()
+        self._pp_task = None
         self.get_logger().info("PersonaPlex Bridge node started")
         self.get_logger().info("ASR HTTP: " + ASR_HTTP_BASE)
         self.get_logger().info("PP HTTP: " + PP_HTTP_BASE)
@@ -97,6 +117,14 @@ class PersonaPlexBridge(Node):
         self.agent_text_publisher.publish(msg)
         self.get_logger().info("Published /voice_command/agent_text: " + text)
 
+    def _on_pp_done(self, task):
+        try:
+            exc = task.exception()
+        except asyncio.CancelledError:
+            return
+        if exc is not None:
+            self.get_logger().error("PP task error: " + str(exc))
+
 
 async def transcribe_via_http(node: PersonaPlexBridge, http: aiohttp.ClientSession, audio_b64: str):
     try:
@@ -110,14 +138,52 @@ async def transcribe_via_http(node: PersonaPlexBridge, http: aiohttp.ClientSessi
         ) as resp:
             if resp.status != 200:
                 node.get_logger().error("ASR HTTP error: " + str(resp.status))
-                return
+                return None, None
             data = await resp.json()
             transcript = data.get("text", "")
             node.publish_transcript(transcript)
             nlu_result = node.nlu.parse(transcript)
+            if nlu_result.intent and nlu_result.intent.startswith("safety.") and node._pp_task and not node._pp_task.done():
+                node._pp_task.cancel()
+                node.get_logger().info("PP cancelled: safety intent detected")
             node.publish_parsed(nlu_result.to_dict())
+            return transcript, nlu_result
     except Exception as e:
         node.get_logger().error("transcribe_via_http error: " + str(e))
+        return None, None
+
+
+async def respond_via_tts(node: PersonaPlexBridge, http: aiohttp.ClientSession, transcript: str, nlu_result):
+    try:
+        intent = nlu_result.intent
+        template = INTENT_RESPONSES.get(intent, INTENT_RESPONSES[None])
+        if "{target}" in template:
+            target = nlu_result.parameters.get("target", "unknown")
+            text = template.format(target=target)
+        else:
+            text = template
+
+        node.get_logger().info("POST TTS /synthesize: " + text)
+        async with http.post(
+            TTS_HTTP_BASE + "/synthesize",
+            json={"text": text},
+            timeout=aiohttp.ClientTimeout(total=30)
+        ) as resp:
+            if resp.status != 200:
+                node.get_logger().error("TTS HTTP error: " + str(resp.status))
+                return
+            data = await resp.json()
+            synth_ms = data.get("synth_ms", 0)
+            audio_b64_resp = data.get("audio_base64", "")
+
+            node.get_logger().info("TTS synth_ms=" + str(synth_ms))
+            if text:
+                node.publish_agent_text(text)
+            if audio_b64_resp:
+                pcm16_only_b64 = wav_to_pcm16_b64(base64.b64decode(audio_b64_resp))
+                node.publish_audio_to_unity(pcm16_only_b64)
+    except Exception as e:
+        node.get_logger().error("respond_via_tts error: " + str(e))
 
 
 async def respond_via_http(node: PersonaPlexBridge, http: aiohttp.ClientSession, audio_b64: str):
@@ -169,13 +235,25 @@ async def main_loop(node: PersonaPlexBridge):
             except asyncio.TimeoutError:
                 continue
 
-            node.get_logger().info("Dispatching: ASR (8080) + PP (8081) parallel HTTP")
+            if CASCADE_TTS:
+                node.get_logger().info("Dispatching: ASR (8080) blocking + TTS (8082) cascade")
+                transcript, nlu_result = await transcribe_via_http(node, http, audio_b64)
+                if transcript is not None:
+                    node._pp_task = asyncio.create_task(
+                        respond_via_tts(node, http, transcript, nlu_result)
+                    )
+                    node._pp_task.add_done_callback(node._on_pp_done)
+            else:
+                node.get_logger().info("Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget")
 
-            await asyncio.gather(
-                transcribe_via_http(node, http, audio_b64),
-                respond_via_http(node, http, audio_b64),
-                return_exceptions=True
-            )
+                if node._pp_task and not node._pp_task.done():
+                    node._pp_task.cancel()
+                    node.get_logger().info("Previous PP task cancelled (new audio arrived)")
+
+                node._pp_task = asyncio.create_task(respond_via_http(node, http, audio_b64))
+                node._pp_task.add_done_callback(node._on_pp_done)
+
+                await transcribe_via_http(node, http, audio_b64)
 
 
 def spin_thread(node):
