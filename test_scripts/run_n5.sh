@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 set -e
 
-MAC_IP="172.21.61.203"
+MAC_IP="192.168.1.102"
 PP_URL="http://${MAC_IP}:8081/health"
 ASR_URL="http://${MAC_IP}:8080/health"
 
-N=5
+N=15
 
 for cycle in $(seq 1 $N); do
   read -r

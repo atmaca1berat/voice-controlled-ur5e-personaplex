@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 set -e
 
-MAC_IP="172.21.61.203"
+MAC_IP="192.168.1.102"
 PP_URL="http://${MAC_IP}:8081/health"
-PUB="python3 /home/berat/test_audio/publish_audio.py"
-AUDIO_DIR="/home/berat/test_audio"
+PUB="python3 $HOME/test_audio/publish_audio.py"
+AUDIO_DIR="$HOME/test_audio"
 
 pause_for_pp() {
   local cycle_name="$1"
@@ -30,9 +30,9 @@ section() {
   echo "════════════════════════════════════════════"
 }
 
-section "TEST 1: N=5 STOP - 25s interval"
+section "TEST 1: N=15 STOP - 25s interval"
 
-for i in 1 2 3 4 5; do
+for i in $(seq 1 15); do
   pause_for_pp "STOP-$i"
 
   $PUB $AUDIO_DIR/move_to_position_a.wav
@@ -56,9 +56,9 @@ sleep 30
 
 tail -10 ~/test_logs/bridge_n5_cycles_*.log
 
-section "TEST 3: N=5 BARGE-IN - 2s interval (robot in motion)"
+section "TEST 3: N=15 BARGE-IN - 2s interval (robot in motion)"
 
-for i in 1 2 3 4 5; do
+for i in $(seq 1 15); do
   pause_for_pp "BARGE-$i"
 
   T_MOVE=$(date +%s.%N)
