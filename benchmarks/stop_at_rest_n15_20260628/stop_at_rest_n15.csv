@@ -1,0 +1,16 @@
+trial,asr_transcript,intent,priority,reached_cancel_handler,no_active_goal_logged,status
+1,"Stop.",safety.stop,1,yes,yes,success
+2,"Stop.",safety.stop,1,yes,yes,success
+3,"Stop.",safety.stop,1,yes,yes,success
+4,"Stop.",safety.stop,1,yes,yes,success
+5,"Stop.",safety.stop,1,yes,yes,success
+6,"Stop.",safety.stop,1,yes,yes,success
+7,"Stop.",safety.stop,1,yes,yes,success
+8,"Stop.",safety.stop,1,yes,yes,success
+9,"Stop.",safety.stop,1,yes,yes,success
+10,"Stop.",safety.stop,1,yes,yes,success
+11,"Stop.",safety.stop,1,yes,yes,success
+12,"Stop.",safety.stop,1,yes,yes,success
+13,"Stop.",safety.stop,1,yes,yes,success
+14,"Stop.",safety.stop,1,yes,yes,success
+15,"Stop.",safety.stop,1,yes,yes,success

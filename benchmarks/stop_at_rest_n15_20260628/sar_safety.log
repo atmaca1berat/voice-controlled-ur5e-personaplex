@@ -1,0 +1,18 @@
+[INFO] [1782642216.323876881] [voice_safety_checker]: Voice Safety Checker started
+[INFO] [1782642216.324776681] [voice_safety_checker]: Input: /voice_command/parsed Output: /voice_command/checked
+[INFO] [1782642228.578182604] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782642250.161763381] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782642258.517106176] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782642266.869043979] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782642277.004394235] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782642286.308810527] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782642294.499099337] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782642303.722029463] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782642312.880010691] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782642322.056842958] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782642330.195578172] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782642340.387635913] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782642349.614993974] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782642357.853522419] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782642367.004258170] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782642375.198087150] [voice_safety_checker]: Passthrough (non-motion): safety.stop

@@ -1,0 +1,55 @@
+[WARN] [1782642219.577422205] [rcl]: Found remap rule '/voice_command/parsed:=/voice_command/checked'. This syntax is deprecated. Use '--ros-args --remap /voice_command/parsed:=/voice_command/checked' instead.
+[INFO] [1782642219.774388389] [voice_task_executor]: Voice Task Executor started
+[INFO] [1782642219.775156388] [voice_task_executor]: Planning group: ur_manipulator
+[INFO] [1782642219.775869088] [voice_task_executor]: Waiting for /move_action server...
+[INFO] [1782642219.776672888] [voice_task_executor]: MoveIt2 action server connected
+[INFO] [1782642228.580552204] [voice_task_executor]: Intent: motion.go_home priority=None params={}
+[INFO] [1782642228.582619104] [voice_task_executor]: Sending joint goal 'home': [0.0, -1.5707963267948966, 0.0, -1.5707963267948966, 0.0, 0.0]
+[INFO] [1782642228.591107104] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782642228.592669104] [voice_task_executor]: Goal accepted, executing...
+[INFO] [1782642228.924231493] [voice_task_executor]: Goal completed successfully
+[INFO] [1782642250.163425981] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782642250.164616981] [voice_task_executor]: No active MoveGroup goal to cancel
+[INFO] [1782642250.165896881] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782642258.518107976] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782642258.518869376] [voice_task_executor]: No active MoveGroup goal to cancel
+[INFO] [1782642258.519700576] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782642266.870759879] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782642266.871947079] [voice_task_executor]: No active MoveGroup goal to cancel
+[INFO] [1782642266.872957779] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782642277.005309635] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782642277.007055035] [voice_task_executor]: No active MoveGroup goal to cancel
+[INFO] [1782642277.009784835] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782642286.316663427] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782642286.317554427] [voice_task_executor]: No active MoveGroup goal to cancel
+[INFO] [1782642286.318387227] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782642294.502377137] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782642294.504324437] [voice_task_executor]: No active MoveGroup goal to cancel
+[INFO] [1782642294.506403837] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782642303.723105263] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782642303.723961763] [voice_task_executor]: No active MoveGroup goal to cancel
+[INFO] [1782642303.724791563] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782642312.882231791] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782642312.883291291] [voice_task_executor]: No active MoveGroup goal to cancel
+[INFO] [1782642312.884453691] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782642322.058136957] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782642322.058824657] [voice_task_executor]: No active MoveGroup goal to cancel
+[INFO] [1782642322.059548057] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782642330.196650172] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782642330.197647372] [voice_task_executor]: No active MoveGroup goal to cancel
+[INFO] [1782642330.198652072] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782642340.388518913] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782642340.389181813] [voice_task_executor]: No active MoveGroup goal to cancel
+[INFO] [1782642340.390018613] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782642349.616150074] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782642349.617020474] [voice_task_executor]: No active MoveGroup goal to cancel
+[INFO] [1782642349.618239674] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782642357.855217719] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782642357.856576119] [voice_task_executor]: No active MoveGroup goal to cancel
+[INFO] [1782642357.858122719] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782642367.005274770] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782642367.006206070] [voice_task_executor]: No active MoveGroup goal to cancel
+[INFO] [1782642367.007122870] [voice_task_executor]: No active trajectory on controller to cancel
+[INFO] [1782642375.200558050] [voice_task_executor]: Intent: safety.stop priority=1 params={}
+[INFO] [1782642375.202044750] [voice_task_executor]: No active MoveGroup goal to cancel
+[INFO] [1782642375.203829550] [voice_task_executor]: No active trajectory on controller to cancel

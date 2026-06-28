@@ -1,0 +1,110 @@
+[INFO] [1782642224.419710144] [personaplex_bridge]: PersonaPlex Bridge node started
+[INFO] [1782642224.420225144] [personaplex_bridge]: ASR HTTP: http://192.168.1.103:8080
+[INFO] [1782642224.420605744] [personaplex_bridge]: PP HTTP: http://192.168.1.103:8081
+[INFO] [1782642224.420971844] [personaplex_bridge]: Voice: NATF0
+[INFO] [1782642224.422746543] [personaplex_bridge]: HTTP session ready, waiting for audio...
+[INFO] [1782642247.678718771] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782642248.452741543] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782642248.453904943] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782642250.159177681] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782642250.160865281] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782642250.162246681] [personaplex_bridge]: POST TTS /synthesize: Stopping robot.
+[ERROR] [1782642250.184864080] [personaplex_bridge]: respond_via_tts error: Cannot connect to host 192.168.1.103:8082 ssl:default [Connect call failed ('192.168.1.103', 8082)]
+[INFO] [1782642258.093613377] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782642258.172585177] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782642258.173320377] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782642258.515936376] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782642258.516686176] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782642258.517253176] [personaplex_bridge]: POST TTS /synthesize: Stopping robot.
+[ERROR] [1782642258.559218776] [personaplex_bridge]: respond_via_tts error: Cannot connect to host 192.168.1.103:8082 ssl:default [Connect call failed ('192.168.1.103', 8082)]
+[INFO] [1782642266.523436377] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782642266.526884377] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782642266.527573877] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782642266.867441379] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782642266.868461079] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782642266.869437279] [personaplex_bridge]: POST TTS /synthesize: Stopping robot.
+[ERROR] [1782642266.950030580] [personaplex_bridge]: respond_via_tts error: Cannot connect to host 192.168.1.103:8082 ssl:default [Connect call failed ('192.168.1.103', 8082)]
+[INFO] [1782642276.199652402] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782642276.882367630] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782642276.883427330] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782642277.003270535] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782642277.003990635] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782642277.004470835] [personaplex_bridge]: POST TTS /synthesize: Stopping robot.
+[ERROR] [1782642277.012298736] [personaplex_bridge]: respond_via_tts error: Cannot connect to host 192.168.1.103:8082 ssl:default [Connect call failed ('192.168.1.103', 8082)]
+[INFO] [1782642285.651488618] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782642286.017489423] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782642286.018140123] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782642286.307169427] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782642286.308082527] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782642286.316327527] [personaplex_bridge]: POST TTS /synthesize: Stopping robot.
+[ERROR] [1782642286.384691228] [personaplex_bridge]: respond_via_tts error: Cannot connect to host 192.168.1.103:8082 ssl:default [Connect call failed ('192.168.1.103', 8082)]
+[INFO] [1782642294.061580331] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782642294.325997335] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782642294.326589935] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782642294.497968637] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782642294.498594237] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782642294.499271037] [personaplex_bridge]: POST TTS /synthesize: Stopping robot.
+[ERROR] [1782642294.516565437] [personaplex_bridge]: respond_via_tts error: Cannot connect to host 192.168.1.103:8082 ssl:default [Connect call failed ('192.168.1.103', 8082)]
+[INFO] [1782642302.998445165] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782642303.511195065] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782642303.511818665] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782642303.720751963] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782642303.721612863] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782642303.722244963] [personaplex_bridge]: POST TTS /synthesize: Stopping robot.
+[ERROR] [1782642303.728032962] [personaplex_bridge]: respond_via_tts error: Cannot connect to host 192.168.1.103:8082 ssl:default [Connect call failed ('192.168.1.103', 8082)]
+[INFO] [1782642312.400773792] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782642312.734547691] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782642312.735517491] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782642312.878617391] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782642312.879531891] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782642312.880129391] [personaplex_bridge]: POST TTS /synthesize: Stopping robot.
+[ERROR] [1782642312.886937991] [personaplex_bridge]: respond_via_tts error: Cannot connect to host 192.168.1.103:8082 ssl:default [Connect call failed ('192.168.1.103', 8082)]
+[INFO] [1782642321.053033446] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782642321.892640072] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782642321.893204572] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782642322.055065858] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782642322.056037358] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782642322.056651958] [personaplex_bridge]: POST TTS /synthesize: Stopping robot.
+[ERROR] [1782642322.080760755] [personaplex_bridge]: respond_via_tts error: Cannot connect to host 192.168.1.103:8082 ssl:default [Connect call failed ('192.168.1.103', 8082)]
+[INFO] [1782642329.523780997] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782642330.065761477] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782642330.066453777] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782642330.194639572] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782642330.195272672] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782642330.195740372] [personaplex_bridge]: POST TTS /synthesize: Stopping robot.
+[ERROR] [1782642330.200116272] [personaplex_bridge]: respond_via_tts error: Cannot connect to host 192.168.1.103:8082 ssl:default [Connect call failed ('192.168.1.103', 8082)]
+[INFO] [1782642339.466445443] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782642340.208952119] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782642340.209836719] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782642340.386587513] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782642340.387282513] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782642340.387835213] [personaplex_bridge]: POST TTS /synthesize: Stopping robot.
+[ERROR] [1782642340.393454013] [personaplex_bridge]: respond_via_tts error: Cannot connect to host 192.168.1.103:8082 ssl:default [Connect call failed ('192.168.1.103', 8082)]
+[INFO] [1782642348.426705881] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782642349.401684875] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782642349.402640875] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782642349.613834574] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782642349.614623274] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782642349.615186674] [personaplex_bridge]: POST TTS /synthesize: Stopping robot.
+[ERROR] [1782642349.668470974] [personaplex_bridge]: respond_via_tts error: Cannot connect to host 192.168.1.103:8082 ssl:default [Connect call failed ('192.168.1.103', 8082)]
+[INFO] [1782642356.871152726] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782642357.627882021] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782642357.628771921] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782642357.851491219] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782642357.852894419] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782642357.853787519] [personaplex_bridge]: POST TTS /synthesize: Stopping robot.
+[ERROR] [1782642357.863284019] [personaplex_bridge]: respond_via_tts error: Cannot connect to host 192.168.1.103:8082 ssl:default [Connect call failed ('192.168.1.103', 8082)]
+[INFO] [1782642366.288042573] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782642366.865190570] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782642366.865979070] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782642367.003041870] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782642367.003962070] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782642367.004612870] [personaplex_bridge]: POST TTS /synthesize: Stopping robot.
+[ERROR] [1782642367.011797070] [personaplex_bridge]: respond_via_tts error: Cannot connect to host 192.168.1.103:8082 ssl:default [Connect call failed ('192.168.1.103', 8082)]
+[INFO] [1782642374.731035551] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782642375.014922951] [personaplex_bridge]: Dispatching: ASR (8080) blocking + TTS (8082) cascade
+[INFO] [1782642375.015651951] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782642375.195198250] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782642375.196335850] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+[INFO] [1782642375.197746850] [personaplex_bridge]: POST TTS /synthesize: Stopping robot.
+[ERROR] [1782642375.216831150] [personaplex_bridge]: respond_via_tts error: Cannot connect to host 192.168.1.103:8082 ssl:default [Connect call failed ('192.168.1.103', 8082)]
