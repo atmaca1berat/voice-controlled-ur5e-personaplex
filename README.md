@@ -2,7 +2,7 @@
 
 Real-time full-duplex voice control of a simulated Universal Robots UR5e industrial manipulator, integrating **NVIDIA PersonaPlex** (MLX 4-bit on Apple Silicon), **Qwen3-ASR**, **ROS 2 Humble**, **MoveIt2**, **Gazebo**, and **Unity 2022.3**.
 
-This repository accompanies the graduation thesis *"NVIDIA PersonaPlex for Real-Time Full-Duplex Voice-Controlled Industrial Robot Control"* and contains all source code, the modified inference-server patches, the natural language understanding (NLU) module with its 33-test suite, the Unity operator scripts, and the raw experimental logs from the measurement campaigns of 21 May 2026 (voice-to-motion and PersonaPlex latency) and 29 May 2026 (barge-in cancellation, safety gate, and sequence executor).
+This repository accompanies the graduation thesis *"NVIDIA PersonaPlex for Real-Time Full-Duplex Voice-Controlled Industrial Robot Control"* and contains all source code, the modified inference-server patches, the natural language understanding (NLU) module with its 33-test suite, the Unity operator scripts, and the raw experimental logs from the measurement campaigns of 21 May 2026 (voice-to-motion and PersonaPlex latency), 29 May 2026 (barge-in cancellation, safety gate, and sequence executor), and the June 2026 article-revision campaigns (dual-server go_home n=15, ASR cold/warm diagnosis, non-blocking barge-in n=15, isolated controller-level cancellation A/B n=15, and cascade-TTS baseline n=15).
 
 - **Author:** Berat Atmaca (2019556012), Çukurova University, Department of Computer Engineering
 - **Supervisor:** Lect. PhD Yunus Emre Çoğurcu
@@ -18,6 +18,8 @@ Measured end-to-end performance (n = 5 trials per scenario):
 
 - Voice-to-motion latency (go home): **5.04 ± 0.75 s**
 - Barge-in cancellation latency (full voice, spoken stop to halt): **3.54 ± 0.33 s** (controller-level preemption: 0.115 ± 0.004 s)
+
+> **Note:** The figures in this section are the original thesis measurements (n=5). They have been superseded by revised n=15 measurements from the June 2026 article-revision campaigns (dual-server go_home, ASR diagnosis, non-blocking barge-in, isolated controller-level, cascade-TTS baseline). See the per-experiment `CONDITIONS.md` files under `benchmarks/` for the current values. The figures here will be finalized when the revised article is complete.
 
 See the thesis (Section 4) and `benchmarks/` for the full results and raw logs.
 
