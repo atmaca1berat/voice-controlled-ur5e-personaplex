@@ -14,7 +14,7 @@ setup(
     install_requires=["setuptools"],
     zip_safe=True,
     maintainer="Berat Atmaca",
-    maintainer_email="atmaca1berat@gmail.com",
+    maintainer_email="atmaca1berat@users.noreply.github.com",
     description="MoveIt2 voice task executor for UR5e",
     license="MIT",
     tests_require=["pytest"],

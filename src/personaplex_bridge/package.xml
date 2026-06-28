@@ -3,7 +3,7 @@
   <name>personaplex_bridge</name>
   <version>1.0.0</version>
   <description>ROS 2 bridge node connecting Unity audio input to a PersonaPlex full-duplex speech-to-speech endpoint and a Qwen3-ASR endpoint over parallel HTTP, with rule-based NLU dispatch.</description>
-  <maintainer email="atmaca1berat@gmail.com">Berat Atmaca</maintainer>
+  <maintainer email="atmaca1berat@users.noreply.github.com">Berat Atmaca</maintainer>
   <license>MIT</license>
 
   <depend>rclpy</depend>

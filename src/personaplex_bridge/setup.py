@@ -14,7 +14,7 @@ setup(
     install_requires=["setuptools", "aiohttp"],
     zip_safe=True,
     maintainer="Berat Atmaca",
-    maintainer_email="atmaca1berat@gmail.com",
+    maintainer_email="atmaca1berat@users.noreply.github.com",
     description="PersonaPlex + Qwen3-ASR bridge node for ROS 2",
     license="MIT",
     tests_require=["pytest"],

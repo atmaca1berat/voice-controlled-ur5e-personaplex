@@ -3,7 +3,7 @@
   <name>voice_task_executor</name>
   <version>1.0.0</version>
   <description>ROS 2 node that consumes structured NLU intents and dispatches MoveIt2 motion goals for a UR5e manipulator, supporting named joint targets, named Cartesian targets, and asynchronous goal cancellation for barge-in handling.</description>
-  <maintainer email="atmaca1berat@gmail.com">Berat Atmaca</maintainer>
+  <maintainer email="atmaca1berat@users.noreply.github.com">Berat Atmaca</maintainer>
   <license>MIT</license>
 
   <depend>rclpy</depend>
