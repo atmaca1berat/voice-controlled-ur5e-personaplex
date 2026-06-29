@@ -1,0 +1,24 @@
+attempt,gecerli,sebep,stop_to_halt_s,asr_s,status,travel_after_stop_rad,pp_cancelled,err8081,stop_asr_timeout,degenerate,move_exec_s
+1,evet,GECERLI,0.8606,0.0992,CANCELED,0.29779,yes,no,h,no,2.1032
+2,evet,GECERLI,0.5566,0.0727,CANCELED,0.18003,yes,no,h,no,2.0760
+3,hayir,GECERSIZ: dejenere,0.3366,0.0759,CANCELED,0.00000,yes,no,h,yes,0.0806
+4,evet,GECERLI,1.2733,0.6090,CANCELED,0.46590,yes,no,h,no,3.6112
+5,hayir,GECERSIZ: dejenere,1.0829,0.0650,CANCELED,0.00000,yes,no,h,yes,0.0661
+6,hayir,GECERSIZ: dejenere,1.1660,0.0638,CANCELED,0.00000,yes,no,h,yes,0.0650
+7,evet,GECERLI,0.7124,0.0808,CANCELED,0.19263,yes,no,h,no,0.9097
+8,hayir,HARIC: superseded (tekrar istendi),0.1525,0.1304,CANCELED,0.00000,yes,no,h,no,1.6903
+9,hayir,GECERSIZ: dejenere,0.2413,0.0637,CANCELED,0.00000,yes,no,h,yes,0.0653
+10,hayir,GECERSIZ: dejenere,0.5657,0.0737,CANCELED,0.00000,yes,no,h,yes,0.0744
+11,evet,GECERLI,0.2787,0.0812,CANCELED,0.06527,yes,no,h,no,1.0799
+12,hayir,GECERSIZ: dejenere,0.4179,0.0686,CANCELED,0.00000,yes,no,h,yes,0.0671
+13,evet,GECERLI,1.2356,0.0773,CANCELED,0.28624,yes,no,h,no,1.0793
+14,evet,GECERLI,0.2918,0.0693,CANCELED,0.06128,yes,no,h,no,1.0741
+15,evet,GECERLI,0.9614,0.0754,CANCELED,0.27513,yes,no,h,no,1.0726
+16,hayir,GECERSIZ: dejenere,1.4860,0.0811,CANCELED,0.00000,yes,no,h,yes,0.0874
+17,evet,GECERLI,1.0865,0.1281,CANCELED,0.38369,yes,no,h,no,2.1317
+18,evet,GECERLI,1.0484,0.0764,CANCELED,0.28561,yes,no,h,no,1.0775
+19,evet,GECERLI,0.3718,0.0828,CANCELED,0.10200,yes,no,h,no,1.0852
+20,evet,GECERLI,0.7263,0.0873,CANCELED,0.21924,yes,no,h,no,1.0850
+21,evet,GECERLI,0.2736,0.0767,CANCELED,0.06124,yes,no,h,no,1.0755
+22,evet,GECERLI,0.5574,0.0767,CANCELED,0.16655,yes,no,h,no,1.0768
+23,evet,GECERLI,0.7194,0.0737,CANCELED,0.24465,yes,no,h,no,2.0768

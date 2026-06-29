@@ -1,0 +1,240 @@
+===== GECERLI TRIAL 1 (ham attempt 1) =====
+[INFO] [1782758090.504666763] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782758091.332852059] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782758091.333761247] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782758091.336232580] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782758095.001312305] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782758095.002632208] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782758096.255724140] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782758097.006088673] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782758097.006593995] [personaplex_bridge]: Previous PP task cancelled (new audio arrived)
+[INFO] [1782758097.007141484] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782758097.008752155] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782758097.106341037] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782758097.106781200] [personaplex_bridge]: PP cancelled: safety intent detected
+[INFO] [1782758097.107561734] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+
+===== GECERLI TRIAL 2 (ham attempt 2) =====
+[INFO] [1782758233.268481945] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782758234.069786751] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782758234.070621284] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782758234.073116448] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782758238.281657808] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782758238.282546939] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782758239.813343296] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782758240.286276628] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782758240.287050808] [personaplex_bridge]: Previous PP task cancelled (new audio arrived)
+[INFO] [1782758240.287921417] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782758240.289760633] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782758240.360628453] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782758240.361194388] [personaplex_bridge]: PP cancelled: safety intent detected
+[INFO] [1782758240.362125952] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+
+===== GECERLI TRIAL 3 (ham attempt 4) =====
+[INFO] [1782758521.549827976] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782758522.038239942] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782758522.039288789] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782758522.041600437] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782758526.739862077] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782758526.740708803] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782758529.090484840] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782758529.746326598] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782758529.747249793] [personaplex_bridge]: Previous PP task cancelled (new audio arrived)
+[INFO] [1782758529.748374035] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782758529.750831390] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782758530.357401280] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782758530.358004031] [personaplex_bridge]: PP cancelled: safety intent detected
+[INFO] [1782758530.358583411] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+
+===== GECERLI TRIAL 4 (ham attempt 7) =====
+[INFO] [1782759120.608457151] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782759120.678087476] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782759120.679113413] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782759120.681115996] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782759125.041360890] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782759125.042079380] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782759125.419726777] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782759126.043826491] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782759126.044310069] [personaplex_bridge]: Previous PP task cancelled (new audio arrived)
+[INFO] [1782759126.044931983] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782759126.047600234] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782759126.125683747] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782759126.126149884] [personaplex_bridge]: PP cancelled: safety intent detected
+[INFO] [1782759126.127165178] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+
+===== GECERLI TRIAL 5 (ham attempt 11) =====
+[INFO] [1782759764.645915136] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782759764.945438488] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782759764.946428188] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782759764.949011089] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782759768.483080020] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782759768.485160693] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782759769.298819551] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782759769.487947310] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782759769.488935056] [personaplex_bridge]: Previous PP task cancelled (new audio arrived)
+[INFO] [1782759769.489544096] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782759769.490821407] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782759769.570770050] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782759769.571205627] [personaplex_bridge]: PP cancelled: safety intent detected
+[INFO] [1782759769.571993935] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+
+===== GECERLI TRIAL 6 (ham attempt 13) =====
+[INFO] [1782760053.696904535] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782760053.961450026] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782760053.962320386] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782760053.964393478] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782760058.579884150] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782760058.581092551] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782760058.896536206] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782760059.583629243] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782760059.584473109] [personaplex_bridge]: Previous PP task cancelled (new audio arrived)
+[INFO] [1782760059.585450186] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782760059.587858865] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782760059.662791306] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782760059.663668009] [personaplex_bridge]: PP cancelled: safety intent detected
+[INFO] [1782760059.665349566] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+
+===== GECERLI TRIAL 7 (ham attempt 14) =====
+[INFO] [1782760168.203660037] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782760168.564431855] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782760168.566774315] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782760168.571317000] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782760172.434302994] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782760172.435758450] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782760173.229578138] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782760173.437681440] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782760173.438265060] [personaplex_bridge]: Previous PP task cancelled (new audio arrived)
+[INFO] [1782760173.438931520] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782760173.441027136] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782760173.508266322] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782760173.510056486] [personaplex_bridge]: PP cancelled: safety intent detected
+[INFO] [1782760173.513352439] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+
+===== GECERLI TRIAL 8 (ham attempt 15) =====
+[INFO] [1782760289.171106913] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782760289.859195816] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782760289.860150914] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782760289.862344117] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782760293.738423497] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782760293.739817039] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782760293.863523103] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782760294.741383328] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782760294.741873585] [personaplex_bridge]: Previous PP task cancelled (new audio arrived)
+[INFO] [1782760294.742397108] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782760294.743628638] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782760294.817749574] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782760294.818397918] [personaplex_bridge]: PP cancelled: safety intent detected
+[INFO] [1782760294.819381375] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+
+===== GECERLI TRIAL 9 (ham attempt 17) =====
+[INFO] [1782760546.286779489] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782760547.020577173] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782760547.022670229] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782760547.026358828] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782760551.269444387] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782760551.270295617] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782760552.326346088] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782760553.274719506] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782760553.275600354] [personaplex_bridge]: Previous PP task cancelled (new audio arrived)
+[INFO] [1782760553.276289542] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782760553.278145645] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782760553.404418866] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782760553.405074820] [personaplex_bridge]: PP cancelled: safety intent detected
+[INFO] [1782760553.405866161] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+
+===== GECERLI TRIAL 10 (ham attempt 18) =====
+[INFO] [1782760669.189898763] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782760669.596846225] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782760669.599134398] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782760669.602645596] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782760673.872202624] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782760673.873444744] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782760673.919465009] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782760674.876348369] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782760674.877227147] [personaplex_bridge]: Previous PP task cancelled (new audio arrived)
+[INFO] [1782760674.879109279] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782760674.881216565] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782760674.955502789] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782760674.956044999] [personaplex_bridge]: PP cancelled: safety intent detected
+[INFO] [1782760674.956832833] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+
+===== GECERLI TRIAL 11 (ham attempt 19) =====
+[INFO] [1782760789.378353598] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782760790.316426101] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782760790.318392808] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782760790.322060927] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782760794.780014349] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782760794.781500885] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782760795.513024678] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782760795.783664668] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782760795.784472379] [personaplex_bridge]: Previous PP task cancelled (new audio arrived)
+[INFO] [1782760795.785953834] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782760795.789497561] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782760795.868778910] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782760795.869447378] [personaplex_bridge]: PP cancelled: safety intent detected
+[INFO] [1782760795.872339347] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+
+===== GECERLI TRIAL 12 (ham attempt 20) =====
+[INFO] [1782760906.968751362] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782760907.274738974] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782760907.275852419] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782760907.277121591] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782760911.580102880] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782760911.583011689] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782760911.963122453] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782760912.586054140] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782760912.587368948] [personaplex_bridge]: Previous PP task cancelled (new audio arrived)
+[INFO] [1782760912.588668318] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782760912.591900866] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782760912.675945356] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782760912.677087031] [personaplex_bridge]: PP cancelled: safety intent detected
+[INFO] [1782760912.678942535] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+
+===== GECERLI TRIAL 13 (ham attempt 21) =====
+[INFO] [1782761038.199077845] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782761038.795639070] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782761038.796685697] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782761038.799735500] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782761042.377481278] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782761042.378363090] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782761043.192344891] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782761043.380818080] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782761043.381346718] [personaplex_bridge]: Previous PP task cancelled (new audio arrived)
+[INFO] [1782761043.381934853] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782761043.383168569] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782761043.458594950] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782761043.459144201] [personaplex_bridge]: PP cancelled: safety intent detected
+[INFO] [1782761043.459796816] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+
+===== GECERLI TRIAL 14 (ham attempt 22) =====
+[INFO] [1782761159.718647865] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782761160.014481214] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782761160.015455096] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782761160.017519395] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782761164.207442386] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782761164.210450503] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782761164.751068806] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782761165.213007080] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782761165.213891947] [personaplex_bridge]: Previous PP task cancelled (new audio arrived)
+[INFO] [1782761165.215102421] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782761165.217603767] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782761165.291818428] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782761165.293800272] [personaplex_bridge]: PP cancelled: safety intent detected
+[INFO] [1782761165.296329919] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+
+===== GECERLI TRIAL 15 (ham attempt 23) =====
+[INFO] [1782761274.091472159] [personaplex_bridge]: Audio chunk received from Unity: 162816 bytes b64
+[INFO] [1782761274.869868816] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782761274.870925557] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782761274.872658721] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782761278.714443351] [personaplex_bridge]: Published /voice_command/text: Move to position A.
+[INFO] [1782761278.715554897] [personaplex_bridge]: Published /voice_command/parsed: intent=motion.move_to params={'target': 'a'}
+[INFO] [1782761280.081719004] [personaplex_bridge]: Audio chunk received from Unity: 56832 bytes b64
+[INFO] [1782761280.718300509] [personaplex_bridge]: Dispatching: ASR (8080) blocking + PP (8081) fire-and-forget
+[INFO] [1782761280.718839382] [personaplex_bridge]: Previous PP task cancelled (new audio arrived)
+[INFO] [1782761280.719733855] [personaplex_bridge]: POST ASR /transcribe...
+[INFO] [1782761280.721271536] [personaplex_bridge]: POST PP /respond...
+[INFO] [1782761280.793394359] [personaplex_bridge]: Published /voice_command/text: Stop.
+[INFO] [1782761280.793794312] [personaplex_bridge]: PP cancelled: safety intent detected
+[INFO] [1782761280.794378807] [personaplex_bridge]: Published /voice_command/parsed: intent=safety.stop params={}
+

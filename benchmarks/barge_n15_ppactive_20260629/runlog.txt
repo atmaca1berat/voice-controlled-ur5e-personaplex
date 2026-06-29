@@ -1,0 +1,531 @@
+[INFO] [1782757673.538679514] [test_audio_publisher]: PUBLISHED at wall_time=1782757673.524932 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782757678.026696689] [test_audio_publisher]: PUBLISHED at wall_time=1782757678.013301 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782758090.515829145] [test_audio_publisher]: PUBLISHED at wall_time=1782758090.503167 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782758095.772733062] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782758096.255423882] [test_audio_publisher]: PUBLISHED at wall_time=1782758096.254646 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782758233.282209124] [test_audio_publisher]: PUBLISHED at wall_time=1782758233.266989 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782758237.824807127] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782758238.311647079] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782758238.811424552] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782758239.311871545] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782758239.812533347] [test_audio_publisher]: PUBLISHED at wall_time=1782758239.811448 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782758386.602303027] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782758387.090757652] [test_audio_publisher]: PUBLISHED at wall_time=1782758387.090245 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782758392.348024870] [test_audio_publisher]: PUBLISHED at wall_time=1782758392.323687 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782758521.567084954] [test_audio_publisher]: PUBLISHED at wall_time=1782758521.548714 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782758527.122382238] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782758527.589681527] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782758528.091077028] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782758528.589805130] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782758529.090043533] [test_audio_publisher]: PUBLISHED at wall_time=1782758529.089387 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782758818.095995654] [test_audio_publisher]: PUBLISHED at wall_time=1782758818.080837 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782758823.455796478] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782758823.943170131] [test_audio_publisher]: PUBLISHED at wall_time=1782758823.942645 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782758963.205235245] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782758963.692612461] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782758964.192651880] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782758964.693058584] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782758965.192956610] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782758965.693848820] [test_audio_publisher]: PUBLISHED at wall_time=1782758965.693024 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782758970.187603723] [test_audio_publisher]: PUBLISHED at wall_time=1782758970.174734 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782759120.620571622] [test_audio_publisher]: PUBLISHED at wall_time=1782759120.606498 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782759125.430886349] [test_audio_publisher]: PUBLISHED at wall_time=1782759125.418857 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782759240.272774214] [test_audio_publisher]: PUBLISHED at wall_time=1782759240.261104 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782759244.750178825] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782759245.237949389] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782759245.738103977] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782759246.795894908] [test_audio_publisher]: PUBLISHED at wall_time=1782759246.795415 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782759469.392137772] [test_audio_publisher]: PUBLISHED at wall_time=1782759469.378155 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782759473.853609722] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782759474.340789887] [test_audio_publisher]: PUBLISHED at wall_time=1782759474.340336 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782759602.901149871] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782759603.390612366] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782759603.889720455] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782759604.389918790] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782759604.891213679] [test_audio_publisher]: PUBLISHED at wall_time=1782759604.890170 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782759609.924116040] [test_audio_publisher]: PUBLISHED at wall_time=1782759609.910864 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782759764.664459839] [test_audio_publisher]: PUBLISHED at wall_time=1782759764.644466 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782759769.313906129] [test_audio_publisher]: PUBLISHED at wall_time=1782759769.297556 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782759930.355434111] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782759930.839926219] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782759931.339737208] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782759931.840114664] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782759932.339521624] [test_audio_publisher]: PUBLISHED at wall_time=1782759932.339013 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782759937.579751510] [test_audio_publisher]: PUBLISHED at wall_time=1782759937.559271 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782760053.717403253] [test_audio_publisher]: PUBLISHED at wall_time=1782760053.693675 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782760058.456408129] [test_audio_publisher]: PUBLISHED at wall_time=1782760058.439330 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782760167.729021352] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782760168.202845234] [test_audio_publisher]: PUBLISHED at wall_time=1782760168.202154 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782760173.253375374] [test_audio_publisher]: PUBLISHED at wall_time=1782760173.227866 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782760289.185159897] [test_audio_publisher]: PUBLISHED at wall_time=1782760289.169301 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782760293.882035208] [test_audio_publisher]: PUBLISHED at wall_time=1782760293.862203 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782760414.875717451] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782760415.357476000] [test_audio_publisher]: PUBLISHED at wall_time=1782760415.356354 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782760420.034204094] [test_audio_publisher]: PUBLISHED at wall_time=1782760420.011858 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782760544.303207750] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782760544.784295129] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782760545.284719089] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782760545.786067645] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782760546.284880704] [test_audio_publisher]: PUBLISHED at wall_time=1782760546.284297 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782760550.841061478] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782760551.325939679] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782760551.824830316] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782760552.325730524] [test_audio_publisher]: PUBLISHED at wall_time=1782760552.324884 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782760668.714152229] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782760669.189199403] [test_audio_publisher]: PUBLISHED at wall_time=1782760669.188145 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782760673.937024226] [test_audio_publisher]: PUBLISHED at wall_time=1782760673.916464 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782760789.393179191] [test_audio_publisher]: PUBLISHED at wall_time=1782760789.376880 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782760794.832488112] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782760795.509053448] [test_audio_publisher]: PUBLISHED at wall_time=1782760795.507124 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782760906.985894033] [test_audio_publisher]: PUBLISHED at wall_time=1782760906.967731 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782760911.982341951] [test_audio_publisher]: PUBLISHED at wall_time=1782760911.962119 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782761038.214705729] [test_audio_publisher]: PUBLISHED at wall_time=1782761038.195259 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782761042.704042057] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782761043.191885618] [test_audio_publisher]: PUBLISHED at wall_time=1782761043.191123 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782761157.738215738] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782761158.217322425] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782761158.717014543] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782761159.217151543] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782761159.717758787] [test_audio_publisher]: PUBLISHED at wall_time=1782761159.716914 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782761164.772124355] [test_audio_publisher]: PUBLISHED at wall_time=1782761164.749530 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True
+[INFO] [1782761272.107777644] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782761272.590195578] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782761273.091066333] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782761273.590786137] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782761274.090824555] [test_audio_publisher]: PUBLISHED at wall_time=1782761274.090227 | topic=/audio/from_unity | bytes_b64=162816 | subscribers=1
+Loading /home/onay/test_audio/move_to_position_a.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     61056
+  duration:     2.544 s
+  raw_bytes:    122112
+  base64_chars: 162816
+Published: True
+[INFO] [1782761278.590789740] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782761279.077869740] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782761279.578000589] [test_audio_publisher]: Waiting for subscriber on /audio/from_unity...
+[INFO] [1782761280.081125229] [test_audio_publisher]: PUBLISHED at wall_time=1782761280.079562 | topic=/audio/from_unity | bytes_b64=56832 | subscribers=1
+Loading /home/onay/test_audio/stop.wav...
+  channels:     1
+  sample_width: 2 bytes (16-bit)
+  sample_rate:  24000 Hz
+  n_frames:     21312
+  duration:     0.888 s
+  raw_bytes:    42624
+  base64_chars: 56832
+Published: True

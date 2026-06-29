@@ -1,0 +1,1312 @@
+[INFO] [launch]: All log files can be found below /home/onay/.ros/log/2026-06-29-21-25-14-107760-DESKTOP-DNRSC1A-9248
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [9270]
+[INFO] [spawner-2]: process started with pid [9272]
+[INFO] [spawner-3]: process started with pid [9274]
+[INFO] [gzserver-4]: process started with pid [9276]
+[INFO] [gzclient-5]: process started with pid [9278]
+[INFO] [spawn_entity.py-6]: process started with pid [9280]
+[INFO] [move_group-7]: process started with pid [9282]
+[INFO] [rviz2-8]: process started with pid [9284]
+[INFO] [servo_node_main-9]: process started with pid [9286]
+[robot_state_publisher-1] [INFO] [1782757515.610667919] [robot_state_publisher]: got segment base
+[robot_state_publisher-1] [INFO] [1782757515.610810746] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-1] [INFO] [1782757515.610829861] [robot_state_publisher]: got segment base_link_inertia
+[robot_state_publisher-1] [INFO] [1782757515.610835841] [robot_state_publisher]: got segment flange
+[robot_state_publisher-1] [INFO] [1782757515.610841037] [robot_state_publisher]: got segment forearm_link
+[robot_state_publisher-1] [INFO] [1782757515.610846036] [robot_state_publisher]: got segment ft_frame
+[robot_state_publisher-1] [INFO] [1782757515.610851133] [robot_state_publisher]: got segment ground_plane
+[robot_state_publisher-1] [INFO] [1782757515.610856035] [robot_state_publisher]: got segment shoulder_link
+[robot_state_publisher-1] [INFO] [1782757515.610860936] [robot_state_publisher]: got segment tool0
+[robot_state_publisher-1] [INFO] [1782757515.610865740] [robot_state_publisher]: got segment upper_arm_link
+[robot_state_publisher-1] [INFO] [1782757515.610870543] [robot_state_publisher]: got segment world
+[robot_state_publisher-1] [INFO] [1782757515.610875346] [robot_state_publisher]: got segment wrist_1_link
+[robot_state_publisher-1] [INFO] [1782757515.610880052] [robot_state_publisher]: got segment wrist_2_link
+[robot_state_publisher-1] [INFO] [1782757515.610884855] [robot_state_publisher]: got segment wrist_3_link
+[servo_node_main-9] [WARN] [1782757515.658001025] [moveit_servo.servo_node]: Intra-process communication is disabled, consider enabling it by adding: 
+[servo_node_main-9] extra_arguments=[{'use_intra_process_comms' : True}]
+[servo_node_main-9] to the Servo composable node in the launch file
+[move_group-7] [WARN] [1782757515.659661521] [move_group.move_group]: Falling back to using the the move_group node namespace (deprecated behavior).
+[move_group-7] [INFO] [1782757515.671777681] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[move_group-7] [INFO] [1782757515.671909921] [moveit_robot_model.robot_model]: Loading robot model 'ur'...
+[move_group-7] [INFO] [1782757515.671930899] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[servo_node_main-9] [INFO] [1782757515.694667215] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.01091 seconds
+[servo_node_main-9] [INFO] [1782757515.694746912] [moveit_robot_model.robot_model]: Loading robot model 'ur'...
+[servo_node_main-9] [INFO] [1782757515.694764263] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[servo_node_main-9] [WARN] [1782757515.738553755] [moveit_ros.robot_model_loader]: No kinematics plugins defined. Fill and load kinematics.yaml!
+[move_group-7] [INFO] [1782757515.807639368] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-7] [INFO] [1782757515.808001189] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group-7] [INFO] [1782757515.809924106] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group-7] [INFO] [1782757515.810840177] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-7] [INFO] [1782757515.810876742] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[servo_node_main-9] [INFO] [1782757515.812953268] [moveit_ros.current_state_monitor]: Listening to joint states on topic '/joint_states'
+[move_group-7] [INFO] [1782757515.813080509] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-7] [INFO] [1782757515.813129327] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-7] [INFO] [1782757515.814531813] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-7] [INFO] [1782757515.815730401] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-7] [WARN] [1782757515.815960375] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group-7] [ERROR] [1782757515.815984098] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[servo_node_main-9] [INFO] [1782757515.821798921] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[servo_node_main-9] [INFO] [1782757515.821834015] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[servo_node_main-9] [INFO] [1782757515.824573113] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[servo_node_main-9] [INFO] [1782757515.824622421] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-7] [INFO] [1782757515.824695746] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'move_group'
+[servo_node_main-9] [INFO] [1782757515.826327912] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[servo_node_main-9] [INFO] [1782757515.828299157] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[servo_node_main-9] [WARN] [1782757515.828561186] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[servo_node_main-9] [ERROR] [1782757515.828584614] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[servo_node_main-9] [INFO] [1782757515.837987753] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on '/servo_node/publish_planning_scene'
+[move_group-7] [INFO] [1782757515.845910178] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[move_group-7] [INFO] [1782757515.848843077] [moveit_ros.add_time_optimal_parameterization]: Param 'move_group.path_tolerance' was not set. Using default value: 0.100000
+[move_group-7] [INFO] [1782757515.848895326] [moveit_ros.add_time_optimal_parameterization]: Param 'move_group.resample_dt' was not set. Using default value: 0.100000
+[move_group-7] [INFO] [1782757515.848904051] [moveit_ros.add_time_optimal_parameterization]: Param 'move_group.min_angle_change' was not set. Using default value: 0.001000
+[move_group-7] [INFO] [1782757515.848924441] [moveit_ros.fix_workspace_bounds]: Param 'move_group.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-7] [INFO] [1782757515.848946301] [moveit_ros.fix_start_state_bounds]: Param 'move_group.start_state_max_bounds_error' was set to 0.100000
+[move_group-7] [INFO] [1782757515.848954045] [moveit_ros.fix_start_state_bounds]: Param 'move_group.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-7] [INFO] [1782757515.848970612] [moveit_ros.fix_start_state_collision]: Param 'move_group.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-7] [INFO] [1782757515.848977768] [moveit_ros.fix_start_state_collision]: Param 'move_group.jiggle_fraction' was not set. Using default value: 0.020000
+[move_group-7] [INFO] [1782757515.848987178] [moveit_ros.fix_start_state_collision]: Param 'move_group.max_sampling_attempts' was not set. Using default value: 100
+[move_group-7] [INFO] [1782757515.849003451] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[move_group-7] [INFO] [1782757515.849010019] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-7] [INFO] [1782757515.849015901] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-7] [INFO] [1782757515.849021194] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-7] [INFO] [1782757515.849026390] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-7] [INFO] [1782757515.916971349] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for scaled_joint_trajectory_controller
+[move_group-7] [INFO] [1782757515.922046846] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for joint_trajectory_controller
+[move_group-7] [INFO] [1782757515.922402197] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782757515.922444349] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782757515.923432569] [moveit_ros.trajectory_execution_manager]: Trajectory execution is not managing controllers
+[move_group-7] [INFO] [1782757515.923498738] [move_group.move_group]: MoveGroup debug mode is ON
+[move_group-7] [INFO] [1782757515.965988575] [move_group.move_group]: 
+[move_group-7] 
+[move_group-7] ********************************************************
+[move_group-7] * MoveGroup using: 
+[move_group-7] *     - ApplyPlanningSceneService
+[move_group-7] *     - ClearOctomapService
+[move_group-7] *     - CartesianPathService
+[move_group-7] *     - ExecuteTrajectoryAction
+[move_group-7] *     - GetPlanningSceneService
+[move_group-7] *     - KinematicsService
+[move_group-7] *     - MoveAction
+[move_group-7] *     - MotionPlanService
+[move_group-7] *     - QueryPlannersService
+[move_group-7] *     - StateValidationService
+[move_group-7] ********************************************************
+[move_group-7] 
+[move_group-7] [INFO] [1782757515.966068860] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[move_group-7] [INFO] [1782757515.966089838] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
+[move_group-7] [96mLoading 'move_group/ApplyPlanningSceneService'...
+[move_group-7] [0m[96mLoading 'move_group/ClearOctomapService'...
+[move_group-7] [0m[96mLoading 'move_group/MoveGroupCartesianPathService'...
+[move_group-7] [0m[96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...
+[move_group-7] [0m[96mLoading 'move_group/MoveGroupGetPlanningSceneService'...
+[move_group-7] [0m[96mLoading 'move_group/MoveGroupKinematicsService'...
+[move_group-7] [0m[96mLoading 'move_group/MoveGroupMoveAction'...
+[move_group-7] [0m[96mLoading 'move_group/MoveGroupPlanService'...
+[move_group-7] [0m[96mLoading 'move_group/MoveGroupQueryPlannersService'...
+[move_group-7] [0m[96mLoading 'move_group/MoveGroupStateValidationService'...
+[move_group-7] [0m[92m
+[move_group-7] You can start planning now!
+[move_group-7] 
+[spawner-3] [INFO] [1782757516.137790555] [spawner_joint_trajectory_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-2] [INFO] [1782757516.233841999] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[servo_node_main-9] [WARN] [1782757516.299066093] [moveit_servo.servo_calcs]: No kinematics solver instantiated for group 'ur_manipulator'. Will use inverse Jacobian for servo calculations instead.
+[servo_node_main-9] [WARN] [1782757516.299099423] [moveit_servo.collision_check]: Collision check rate is low, increase it in yaml file if CPU allows
+[spawn_entity.py-6] [INFO] [1782757516.372594628] [spawn_ur]: Spawn Entity started
+[spawn_entity.py-6] [INFO] [1782757516.373488938] [spawn_ur]: Loading entity published on topic robot_description
+[spawn_entity.py-6] [INFO] [1782757516.376724253] [spawn_ur]: Waiting for entity xml on robot_description
+[rviz2-8] [INFO] [1782757517.506239780] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-8] [INFO] [1782757517.506425655] [rviz2]: OpenGl version: 4.1 (GLSL 4.1)
+[rviz2-8] [INFO] [1782757517.543895338] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-8] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+[rviz2-8]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+[spawn_entity.py-6] [INFO] [1782757518.302240458] [spawn_ur]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-6] [INFO] [1782757518.302980528] [spawn_ur]: Waiting for service /spawn_entity
+[spawn_entity.py-6] [INFO] [1782757519.062724212] [spawn_ur]: Calling service /spawn_entity
+[spawn_entity.py-6] [INFO] [1782757519.279837332] [spawn_ur]: Spawn status: SpawnEntity: Successfully spawned entity [ur]
+[gzserver-4] [INFO] [1782757519.317802452] [gazebo_ros2_control]: Loading gazebo_ros2_control plugin
+[gzserver-4] [INFO] [1782757519.333203598] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in namespace: /
+[gzserver-4] [INFO] [1782757519.333696097] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in ros 2 node: gazebo_ros2_control
+[gzserver-4] [INFO] [1782757519.347136746] [gazebo_ros2_control]: connected to service!! robot_state_publisher
+[gzserver-4] [INFO] [1782757519.348126346] [gazebo_ros2_control]: Received urdf from param server, parsing...
+[gzserver-4] [INFO] [1782757519.348198228] [gazebo_ros2_control]: Loading parameter files /home/onay/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config/ur_controllers.yaml
+[gzserver-4] [INFO] [1782757519.362323616] [gazebo_ros2_control]: Loading joint: shoulder_pan_joint
+[gzserver-4] [INFO] [1782757519.362400787] [gazebo_ros2_control]: 	State:
+[gzserver-4] [INFO] [1782757519.362418414] [gazebo_ros2_control]: 		 position
+[gzserver-4] [INFO] [1782757519.362428012] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-4] [INFO] [1782757519.362437021] [gazebo_ros2_control]: 		 velocity
+[gzserver-4] [INFO] [1782757519.362443485] [gazebo_ros2_control]: 		 effort
+[gzserver-4] [INFO] [1782757519.362449752] [gazebo_ros2_control]: 	Command:
+[gzserver-4] [INFO] [1782757519.362469828] [gazebo_ros2_control]: 		 position
+[gzserver-4] [INFO] [1782757519.363262880] [gazebo_ros2_control]: 		 velocity
+[gzserver-4] [INFO] [1782757519.363581061] [gazebo_ros2_control]: 		 effort
+[gzserver-4] [INFO] [1782757519.363838915] [gazebo_ros2_control]: Loading joint: shoulder_lift_joint
+[gzserver-4] [INFO] [1782757519.363851744] [gazebo_ros2_control]: 	State:
+[gzserver-4] [INFO] [1782757519.363858795] [gazebo_ros2_control]: 		 position
+[gzserver-4] [INFO] [1782757519.363866434] [gazebo_ros2_control]: 			 found initial value: -1.570000
+[gzserver-4] [INFO] [1782757519.363891700] [gazebo_ros2_control]: 		 velocity
+[gzserver-4] [INFO] [1782757519.363906194] [gazebo_ros2_control]: 		 effort
+[gzserver-4] [INFO] [1782757519.363912853] [gazebo_ros2_control]: 	Command:
+[gzserver-4] [INFO] [1782757519.363919415] [gazebo_ros2_control]: 		 position
+[gzserver-4] [INFO] [1782757519.364564198] [gazebo_ros2_control]: 		 velocity
+[gzserver-4] [INFO] [1782757519.365202909] [gazebo_ros2_control]: 		 effort
+[gzserver-4] [INFO] [1782757519.365245020] [gazebo_ros2_control]: Loading joint: elbow_joint
+[gzserver-4] [INFO] [1782757519.365277533] [gazebo_ros2_control]: 	State:
+[gzserver-4] [INFO] [1782757519.365307892] [gazebo_ros2_control]: 		 position
+[gzserver-4] [INFO] [1782757519.365321700] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-4] [INFO] [1782757519.365339230] [gazebo_ros2_control]: 		 velocity
+[gzserver-4] [INFO] [1782757519.365372037] [gazebo_ros2_control]: 		 effort
+[gzserver-4] [INFO] [1782757519.365395149] [gazebo_ros2_control]: 	Command:
+[gzserver-4] [INFO] [1782757519.365412679] [gazebo_ros2_control]: 		 position
+[gzserver-4] [INFO] [1782757519.366308951] [gazebo_ros2_control]: 		 velocity
+[gzserver-4] [INFO] [1782757519.367238127] [gazebo_ros2_control]: 		 effort
+[gzserver-4] [INFO] [1782757519.367284057] [gazebo_ros2_control]: Loading joint: wrist_1_joint
+[gzserver-4] [INFO] [1782757519.367325091] [gazebo_ros2_control]: 	State:
+[gzserver-4] [INFO] [1782757519.367352316] [gazebo_ros2_control]: 		 position
+[gzserver-4] [INFO] [1782757519.367363480] [gazebo_ros2_control]: 			 found initial value: -1.570000
+[gzserver-4] [INFO] [1782757519.367423316] [gazebo_ros2_control]: 		 velocity
+[gzserver-4] [INFO] [1782757519.367507832] [gazebo_ros2_control]: 		 effort
+[gzserver-4] [INFO] [1782757519.367518702] [gazebo_ros2_control]: 	Command:
+[gzserver-4] [INFO] [1782757519.367528201] [gazebo_ros2_control]: 		 position
+[gzserver-4] [INFO] [1782757519.368106489] [gazebo_ros2_control]: 		 velocity
+[gzserver-4] [INFO] [1782757519.368756658] [gazebo_ros2_control]: 		 effort
+[gzserver-4] [INFO] [1782757519.368807680] [gazebo_ros2_control]: Loading joint: wrist_2_joint
+[gzserver-4] [INFO] [1782757519.368822958] [gazebo_ros2_control]: 	State:
+[gzserver-4] [INFO] [1782757519.368834220] [gazebo_ros2_control]: 		 position
+[gzserver-4] [INFO] [1782757519.368858899] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-4] [INFO] [1782757519.368902478] [gazebo_ros2_control]: 		 velocity
+[gzserver-4] [INFO] [1782757519.368913447] [gazebo_ros2_control]: 		 effort
+[gzserver-4] [INFO] [1782757519.368924317] [gazebo_ros2_control]: 	Command:
+[gzserver-4] [INFO] [1782757519.368934894] [gazebo_ros2_control]: 		 position
+[gzserver-4] [INFO] [1782757519.369608469] [gazebo_ros2_control]: 		 velocity
+[gzserver-4] [INFO] [1782757519.369981687] [gazebo_ros2_control]: 		 effort
+[gzserver-4] [INFO] [1782757519.370079618] [gazebo_ros2_control]: Loading joint: wrist_3_joint
+[gzserver-4] [INFO] [1782757519.370096267] [gazebo_ros2_control]: 	State:
+[gzserver-4] [INFO] [1782757519.370104395] [gazebo_ros2_control]: 		 position
+[gzserver-4] [INFO] [1782757519.370111348] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-4] [INFO] [1782757519.370123002] [gazebo_ros2_control]: 		 velocity
+[gzserver-4] [INFO] [1782757519.370145331] [gazebo_ros2_control]: 		 effort
+[gzserver-4] [INFO] [1782757519.370152186] [gazebo_ros2_control]: 	Command:
+[gzserver-4] [INFO] [1782757519.370158160] [gazebo_ros2_control]: 		 position
+[gzserver-4] [INFO] [1782757519.370950428] [gazebo_ros2_control]: 		 velocity
+[gzserver-4] [INFO] [1782757519.371404440] [gazebo_ros2_control]: 		 effort
+[gzserver-4] [INFO] [1782757519.371638399] [resource_manager]: Initialize hardware 'ur' 
+[gzserver-4] [INFO] [1782757519.372027776] [resource_manager]: Successful initialization of hardware 'ur'
+[gzserver-4] [INFO] [1782757519.372250472] [resource_manager]: 'configure' hardware 'ur' 
+[gzserver-4] [INFO] [1782757519.372267904] [resource_manager]: Successful 'configure' of hardware 'ur'
+[gzserver-4] [INFO] [1782757519.372296011] [resource_manager]: 'activate' hardware 'ur' 
+[gzserver-4] [INFO] [1782757519.372301691] [resource_manager]: Successful 'activate' of hardware 'ur'
+[gzserver-4] [INFO] [1782757519.372401777] [gazebo_ros2_control]: Loading controller_manager
+[gzserver-4] [WARN] [1782757519.412297231] [gazebo_ros2_control]:  Desired controller update period (0.01 s) is slower than the gazebo simulation period (0.001 s).
+[gzserver-4] [INFO] [1782757519.412813723] [gazebo_ros2_control]: Loaded gazebo_ros2_control.
+[INFO] [spawn_entity.py-6]: process has finished cleanly [pid 9280]
+[gzserver-4] [INFO] [1782757519.491468818] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[spawner-2] [INFO] [1782757519.534797368] [spawner_joint_state_broadcaster]: [94mLoaded [1mjoint_state_broadcaster[0m
+[gzserver-4] [INFO] [1782757519.537454943] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[gzserver-4] [INFO] [1782757519.537917573] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[spawner-2] [INFO] [1782757519.575060262] [spawner_joint_state_broadcaster]: [92mConfigured and activated [1mjoint_state_broadcaster[0m
+[gzserver-4] [INFO] [1782757519.646121432] [controller_manager]: Loading controller 'joint_trajectory_controller'
+[gzserver-4] [WARN] [1782757519.689376925] [joint_trajectory_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[spawner-3] [INFO] [1782757519.695103683] [spawner_joint_trajectory_controller]: [94mLoaded [1mjoint_trajectory_controller[0m
+[gzserver-4] [INFO] [1782757519.697443077] [controller_manager]: Configuring controller 'joint_trajectory_controller'
+[gzserver-4] [INFO] [1782757519.697943607] [joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gzserver-4] [INFO] [1782757519.698094324] [joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[gzserver-4] [INFO] [1782757519.698212332] [joint_trajectory_controller]: Using 'splines' interpolation method.
+[gzserver-4] [INFO] [1782757519.701324604] [joint_trajectory_controller]: Controller state will be published at 100.00 Hz.
+[gzserver-4] [INFO] [1782757519.705582482] [joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[INFO] [spawner-2]: process has finished cleanly [pid 9272]
+[spawner-3] [INFO] [1782757519.745745290] [spawner_joint_trajectory_controller]: [92mConfigured and activated [1mjoint_trajectory_controller[0m
+[INFO] [spawner-3]: process has finished cleanly [pid 9274]
+[rviz2-8] [ERROR] [1782757520.709089073] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[rviz2-8] [INFO] [1782757520.742000423] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[rviz2-8] [INFO] [1782757521.089593261] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.1 seconds
+[rviz2-8] [INFO] [1782757521.089732618] [moveit_robot_model.robot_model]: Loading robot model 'ur'...
+[rviz2-8] [INFO] [1782757521.089767090] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[rviz2-8] [INFO] [1782757521.230448069] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[rviz2-8] [INFO] [1782757521.232100570] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[rviz2-8] [INFO] [1782757521.794585042] [interactive_marker_display_100883034561616]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[rviz2-8] [INFO] [1782757521.808658722] [moveit_ros_visualization.motion_planning_frame]: group ur_manipulator
+[rviz2-8] [INFO] [1782757521.808726785] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'ur_manipulator' in namespace ''
+[rviz2-8] [INFO] [1782757521.875969692] [interactive_marker_display_100883034561616]: Sending request for interactive markers
+[rviz2-8] [INFO] [1782757521.918850009] [move_group_interface]: Ready to take commands for planning group ur_manipulator.
+[rviz2-8] [INFO] [1782757521.931520130] [interactive_marker_display_100883034561616]: Service response received for initialization
+[move_group-7] [INFO] [1782757656.655872007] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782757656.656715021] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782757656.657155736] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782757656.657192193] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782757656.657201405] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782757656.657216889] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782757656.658817752] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782757656.676411466] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782757656.676468601] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782757656.676537986] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782757656.676644613] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782757656.676694104] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782757656.676710862] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782757656.676866097] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782757656.678775568] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782757656.679131316] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782757656.679857609] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782757656.679905532] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782757656.953202575] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782757656.975975401] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782757656.976167681] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782757656.976793522] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782758074.048385476] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782758074.049080770] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782758074.049227226] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782758074.049254814] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782758074.049273500] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782758074.049287490] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782758074.050768184] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782758074.065526591] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758074.065597129] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758074.065675688] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782758074.065836916] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782758074.065866168] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758074.065883093] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758074.066046668] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782758074.066403561] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782758074.066585627] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782758074.067195025] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782758074.067232788] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782758074.339885896] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782758074.362631928] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782758074.362846768] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782758074.366024559] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782758095.010016660] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782758095.010351258] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782758095.010586162] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782758095.010613165] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782758095.010621676] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782758095.010628427] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782758095.011387926] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782758095.048326916] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758095.048399608] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758095.048514859] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782758095.048691452] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782758095.048728630] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758095.048747317] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758095.049032801] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782758095.049780267] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782758095.049904225] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782758095.050299775] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782758095.050415711] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782758097.112270083] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782758097.112481311] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782758097.156047405] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782758097.156275265] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782758097.156312540] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782758097.158995101] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782758216.029883518] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782758216.030243171] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782758216.030406097] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782758216.030436370] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782758216.030449106] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782758216.030459785] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782758216.031738016] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782758216.061842719] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758216.061989872] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758216.062201098] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782758216.062511569] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782758216.062590828] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758216.062625020] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758216.063185219] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782758216.063861613] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782758216.064028164] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782758216.064446109] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782758216.064509888] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782758218.461181603] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782758218.466454122] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782758218.466642422] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782758218.472590943] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782758238.290211807] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782758238.290478948] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782758238.290621437] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782758238.290640350] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782758238.290648484] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782758238.290654266] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782758238.291120243] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782758238.322524989] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758238.322657188] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758238.322864746] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782758238.323146195] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782758238.323218713] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758238.323245074] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758238.323684593] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782758238.324553242] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782758238.324656139] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782758238.325191009] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782758238.325219428] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782758240.366202743] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782758240.366298682] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782758240.383735266] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782758240.383942433] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782758240.383969284] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782758240.393608899] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782758370.381690646] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782758370.381908323] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782758370.382025715] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782758370.382050053] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782758370.382062271] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782758370.382070873] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782758370.382631438] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782758370.401780205] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758370.401888702] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758370.402035808] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782758370.402190635] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782758370.402227583] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758370.402247229] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758370.402562456] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782758370.403446459] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782758370.403662377] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782758370.404221672] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782758370.404250409] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782758372.760832031] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782758372.800320486] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782758372.800541877] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782758372.802418771] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782758392.576826767] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782758392.577073222] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782758392.577205823] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782758392.577221919] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782758392.577228692] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782758392.577234188] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782758392.577596853] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782758392.599189971] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758392.599256516] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758392.599509940] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782758392.599937973] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782758392.599989305] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758392.600009524] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758392.600150762] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782758392.600726805] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782758392.600823384] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782758392.601185460] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782758392.601203225] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782758392.657777919] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782758392.657873910] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782758392.701029523] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782758392.701276175] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782758392.701321029] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782758392.710063258] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782758505.408246404] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782758505.408568198] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782758505.408772993] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782758505.408801026] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782758505.408813388] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782758505.408830908] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782758505.409518004] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782758505.423565074] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758505.423620459] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758505.423670879] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782758505.423803937] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782758505.423836545] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758505.423854358] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758505.423987805] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782758505.424283999] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782758505.424354860] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782758505.424564717] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782758505.424584768] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782758505.748591397] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782758505.767351875] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782758505.767482986] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782758505.773931703] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782758526.746149013] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782758526.746503975] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782758526.746740616] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782758526.746773863] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782758526.746785598] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782758526.746794496] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782758526.747452789] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782758526.781383939] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758526.781478498] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758526.781650796] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782758526.781914818] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782758526.781967915] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758526.781995980] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758526.782176883] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782758526.782733479] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782758526.782835568] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782758526.783104185] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782758526.783124036] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782758530.360901323] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782758530.360970653] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782758530.403085586] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782758530.403253875] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782758530.403286144] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782758530.412297097] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782758801.973321855] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782758801.974131077] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782758801.974423797] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782758801.974539276] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782758801.974567297] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782758801.974586495] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782758801.975979702] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782758801.996934441] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758801.997004154] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758801.997106640] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782758801.997378999] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782758801.997456566] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758801.997484588] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758801.997779635] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782758801.998278781] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782758801.998385145] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782758801.999285703] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782758801.999336606] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782758805.892750585] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782758805.925819384] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782758805.925982555] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782758805.927629750] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782758824.956686492] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782758824.956975848] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782758824.957125020] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782758824.957145017] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782758824.957153501] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782758824.957159561] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782758824.957789882] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782758824.988006929] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758824.988074799] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758824.988161151] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782758824.988304466] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782758824.988345067] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758824.988366680] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758824.988520195] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782758824.989044066] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782758824.989130822] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782758824.989583995] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782758824.989601063] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782758825.023126262] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782758825.023198172] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782758825.040455101] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782758825.040591648] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782758825.040614171] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782758825.048549695] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782758946.194986704] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782758946.195458683] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782758946.196043646] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782758946.196087433] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782758946.196108642] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782758946.196125746] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782758946.197229993] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782758946.212360172] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758946.212423311] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758946.212481368] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782758946.212585557] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782758946.212633644] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758946.212655635] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758946.212836451] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782758946.213126929] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782758946.213220758] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782758946.213550625] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782758946.213572420] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782758946.516733207] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782758946.557508250] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782758946.557752595] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782758946.562902719] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782758971.272857254] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782758971.273231957] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782758971.273460117] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782758971.273482084] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782758971.273489602] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782758971.273494874] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782758971.273939089] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782758971.302483671] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758971.302560896] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758971.302668191] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782758971.302855249] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782758971.302932767] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758971.302958737] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782758971.303210329] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782758971.304234659] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782758971.304318719] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782758971.304735402] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782758971.304748582] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782758971.338746759] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782758971.338830037] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782758971.354296925] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782758971.354375615] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782758971.354403244] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782758971.363337924] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782759104.498982704] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782759104.499150330] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782759104.499236524] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782759104.499251402] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782759104.499257750] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782759104.499263404] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782759104.499772235] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782759104.516208479] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759104.516279001] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759104.516344564] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782759104.516489874] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782759104.516529152] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759104.516550973] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759104.516745281] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782759104.517061392] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782759104.517235961] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782759104.517589168] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782759104.517621602] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782759104.788359546] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782759104.816185082] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782759104.816289129] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782759104.816614563] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782759125.217462358] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782759125.218151148] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782759125.224319061] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782759125.224357831] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782759125.224371186] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782759125.224384541] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782759125.224881375] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782759125.261789189] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759125.261974168] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759125.262198018] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782759125.262385887] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782759125.262428245] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759125.262464823] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759125.262662759] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782759125.263108564] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782759125.263158197] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782759125.263683934] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782759125.263742338] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782759126.129957314] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782759126.130018808] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782759126.161219762] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782759126.161364576] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782759126.161387200] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782759126.162559468] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782759224.148209528] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782759224.148520278] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782759224.148637336] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782759224.148655395] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782759224.148663645] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782759224.148669511] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782759224.149150028] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782759224.168157111] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759224.168223386] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759224.168302952] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782759224.168458236] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782759224.168489127] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759224.168510577] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759224.168621036] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782759224.168841586] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782759224.168900527] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782759224.169188177] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782759224.169199269] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782759225.321076232] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782759225.350129331] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782759225.350259731] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782759225.358583030] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782759245.254710345] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782759245.255139583] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782759245.255254939] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782759245.255284928] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782759245.255298522] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782759245.255309218] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782759245.255966670] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782759245.291965644] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759245.292198955] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759245.292558819] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782759245.293044735] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782759245.293136001] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759245.293200676] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759245.293544646] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782759245.294328749] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782759245.294459000] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782759245.294805569] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782759245.294827860] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782759246.944954988] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782759246.945063847] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782759246.953702677] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782759246.953989068] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782759246.954028553] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782759246.961140162] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782759453.169062393] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782759453.169356910] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782759453.169510967] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782759453.169535060] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782759453.169545057] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782759453.169553055] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782759453.170210171] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782759453.197890203] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759453.197998573] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759453.198140133] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782759453.198373867] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782759453.198416256] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759453.198433351] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759453.198606802] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782759453.198913516] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782759453.198980697] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782759453.199362290] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782759453.199379685] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782759454.622915217] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782759454.649335903] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782759454.649499957] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782759454.658505230] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782759474.511905308] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782759474.512330921] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782759474.512786048] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782759474.512833813] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782759474.512851579] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782759474.512863229] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782759474.514078422] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782759474.542222302] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759474.542273659] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759474.542348607] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782759474.542465107] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782759474.542497339] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759474.542514329] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759474.542635100] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782759474.543106343] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782759474.543180709] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782759474.543771461] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782759474.543803401] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782759474.577935383] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782759474.578018098] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782759474.593065628] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782759474.593202322] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782759474.593227175] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782759474.602775322] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782759586.774428041] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782759586.774648454] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782759586.774725888] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782759586.774739056] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782759586.774745443] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782759586.774751143] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782759586.775105984] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782759586.779272792] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759586.779328018] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759586.779379411] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782759586.779511875] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782759586.779541355] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759586.779557176] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759586.779679911] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782759586.779984931] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782759586.780046643] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782759586.780396080] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782759586.780416421] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782759587.121155992] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782759587.125611508] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782759587.125714098] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782759587.129686043] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782759610.398052293] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782759610.398577889] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782759610.398805661] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782759610.398912942] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782759610.398953872] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782759610.398979292] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782759610.400046796] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782759610.435180957] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759610.435333372] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759610.435526418] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782759610.435774304] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782759610.435861470] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759610.435887089] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759610.436107455] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782759610.436801778] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782759610.436954093] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782759610.437284542] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782759610.437368305] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782759610.474267496] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782759610.474387787] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782759610.488879101] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782759610.489083655] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782759610.489145602] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782759610.496097438] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782759748.379726700] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782759748.379966200] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782759748.380102400] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782759748.380119500] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782759748.380127200] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782759748.380133200] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782759748.380533301] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782759748.405096105] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759748.405202705] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759748.405318405] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782759748.405493105] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782759748.405558405] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759748.405605205] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759748.406276505] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782759748.407137905] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782759748.407388005] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782759748.408604705] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782759748.408652405] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782759748.694551755] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782759748.708969158] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782759748.709111658] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782759748.715650259] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782759768.491795195] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782759768.492080332] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782759768.492164456] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782759768.492189349] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782759768.492203320] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782759768.492216308] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782759768.492733352] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782759768.522897654] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759768.523006769] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759768.523196762] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782759768.523776088] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782759768.523973657] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759768.524023837] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759768.524499557] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782759768.525904875] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782759768.526157936] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782759768.526956772] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782759768.527003410] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782759769.574392116] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782759769.574494049] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782759769.610278540] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782759769.610396511] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782759769.610423667] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782759769.614102012] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782759914.077349934] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782759914.077691351] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782759914.084236798] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782759914.084343460] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782759914.084359900] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782759914.084370174] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782759914.085797884] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782759914.111703228] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759914.112012646] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759914.112271767] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782759914.112772297] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782759914.112849799] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759914.112882385] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759914.113117140] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782759914.113610331] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782759914.113700749] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782759914.114551601] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782759914.114636931] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782759915.469662032] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782759915.485936942] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782759915.489993633] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782759915.492883791] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782759937.906422956] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782759937.906801023] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782759937.907360582] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782759937.907414647] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782759937.907437272] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782759937.907451181] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782759937.908046685] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782759937.946039384] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759937.946120972] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759937.946214215] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782759937.946368282] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782759937.946404424] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759937.946441251] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782759937.946596396] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782759937.947085238] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782759937.947188276] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782759937.947389357] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782759937.947419328] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782759937.975344474] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782759937.975431449] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782759937.998150436] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782759937.998276001] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782759937.998323407] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782759938.006787211] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782760037.345865180] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782760037.346368046] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782760037.346712199] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782760037.346750438] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782760037.346764973] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782760037.346776679] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782760037.347502346] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782760037.366072080] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760037.366237719] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760037.366377409] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782760037.366669666] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782760037.366751802] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760037.366784579] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760037.367217989] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782760037.367668373] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782760037.367770215] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782760037.368618306] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782760037.368691468] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782760037.735703951] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782760037.760267783] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782760037.760418106] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782760037.766718410] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782760058.590984852] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782760058.591741853] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782760058.592066653] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782760058.592105653] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782760058.592120953] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782760058.592133553] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782760058.592861053] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782760058.626270059] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760058.626443959] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760058.626666159] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782760058.627004159] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782760058.627064259] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760058.627093759] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760058.627526259] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782760058.628223559] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782760058.628330159] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782760058.628848359] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782760058.628864959] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782760059.670559402] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782760059.670626252] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782760059.676298750] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782760059.676439998] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782760059.676464896] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782760059.677216328] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782760150.663511420] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782760150.663939904] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782760150.664239577] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782760150.664305747] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782760150.664327117] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782760150.664344370] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782760150.665138206] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782760150.689183274] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760150.689456186] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760150.689810168] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782760150.690363736] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782760150.690448530] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760150.690492153] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760150.690695073] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782760150.691504104] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782760150.691869947] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782760150.693062858] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782760150.693124126] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782760152.067814597] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782760152.115741318] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782760152.115893361] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782760152.120568448] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782760172.443243272] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782760172.443677663] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782760172.449271357] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782760172.449376458] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782760172.449391135] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782760172.449400296] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782760172.450269964] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782760172.482963447] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760172.483101842] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760172.483308990] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782760172.483543226] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782760172.483609813] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760172.483632173] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760172.483755694] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782760172.484436633] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782760172.484640236] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782760172.485464593] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782760172.485503600] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782760173.517018265] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782760173.517110167] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782760173.520362386] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782760173.520521269] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782760173.520552789] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782760173.524042396] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782760273.011783257] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782760273.012135701] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782760273.012287355] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782760273.012313323] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782760273.012326258] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782760273.012338132] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782760273.013053735] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782760273.029838415] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760273.029903382] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760273.029978872] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782760273.030128209] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782760273.030170877] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760273.030188736] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760273.030340969] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782760273.030996239] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782760273.031114975] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782760273.031623900] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782760273.031643786] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782760274.316776522] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782760274.336907249] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782760274.337067880] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782760274.340308320] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782760293.747674789] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782760293.748086837] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782760293.748255228] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782760293.748285157] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782760293.748301938] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782760293.748317442] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782760293.749062739] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782760293.780343013] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760293.780518960] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760293.780832288] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782760293.790142361] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782760293.790303883] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760293.790358541] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760293.790712790] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782760293.791511665] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782760293.791658075] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782760293.792104468] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782760293.792147351] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782760294.821826870] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782760294.821903313] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782760294.822898350] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782760294.822979308] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782760294.823002074] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782760294.830357203] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782760398.459349493] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782760398.460227732] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782760398.460700806] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782760398.460771286] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782760398.460805933] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782760398.460827612] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782760398.463938471] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782760398.495826211] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760398.495913125] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760398.496356798] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782760398.496801857] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782760398.496902133] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760398.496971822] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760398.497288293] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782760398.498426678] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782760398.498606642] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782760398.499476764] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782760398.499507649] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782760399.882828545] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782760399.886510576] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782760399.886810714] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782760399.887124512] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782760421.405425635] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782760421.406188055] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782760421.407612415] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782760421.407670504] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782760421.407692484] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782760421.407969192] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782760421.409410528] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782760421.448752549] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760421.448817703] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760421.448917691] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782760421.449088328] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782760421.449132778] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760421.449155346] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760421.449426069] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782760421.449938666] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782760421.450060339] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782760421.450544873] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782760421.450566656] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782760421.490632632] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782760421.490833785] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782760421.501052953] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782760421.501232421] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782760421.501283053] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782760421.509548288] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782760527.287182088] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782760527.287658286] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782760527.287820648] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782760527.287877376] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782760527.287918462] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782760527.287939054] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782760527.288799575] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782760527.298485885] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760527.298597360] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760527.298741111] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782760527.298903671] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782760527.298942480] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760527.298962577] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760527.299099496] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782760527.299443922] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782760527.299526985] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782760527.299884578] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782760527.299900121] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782760527.585015109] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782760527.598778202] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782760527.598940268] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782760527.599030854] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782760551.275933574] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782760551.276299812] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782760551.276447912] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782760551.276479801] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782760551.276490072] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782760551.276497213] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782760551.277013214] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782760551.312431413] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760551.312502821] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760551.312596631] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782760551.312759990] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782760551.312802542] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760551.312819465] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760551.312955630] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782760551.313358747] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782760551.313440818] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782760551.313836696] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782760551.313854206] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782760553.409087504] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782760553.409211126] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782760553.421584165] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782760553.421774255] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782760553.421795431] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782760553.422940483] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782760651.482588126] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782760651.482933898] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782760651.483169918] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782760651.483201388] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782760651.483213702] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782760651.483224746] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782760651.484151528] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782760651.508681891] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760651.508766331] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760651.508874128] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782760651.509080145] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782760651.509141813] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760651.509177094] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760651.509498335] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782760651.510144239] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782760651.510250863] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782760651.510974072] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782760651.510998114] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782760653.873973343] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782760653.908301915] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782760653.908692741] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782760653.909484654] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782760673.879865616] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782760673.880191841] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782760673.880337178] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782760673.880368811] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782760673.880382914] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782760673.880393491] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782760673.881268058] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782760673.912916134] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760673.912978422] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760673.913081450] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782760673.913514914] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782760673.913581511] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760673.913606484] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760673.913790702] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782760673.914820595] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782760673.914951732] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782760673.915483915] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782760673.915513590] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782760674.960832258] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782760674.960956586] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782760674.993766823] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782760674.993878923] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782760674.993900052] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782760675.003677154] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782760773.005700335] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782760773.005980573] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782760773.006157396] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782760773.006174990] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782760773.006182517] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782760773.006189359] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782760773.006634299] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782760773.027810414] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760773.027949995] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760773.028143337] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782760773.028352514] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782760773.028400703] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760773.028435989] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760773.028643211] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782760773.029036542] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782760773.029155010] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782760773.029710403] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782760773.029730930] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782760774.415639507] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782760774.448123009] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782760774.455607552] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782760774.458474123] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782760794.790393524] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782760794.790692825] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782760794.790837541] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782760794.790862262] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782760794.790874477] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782760794.790885128] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782760794.791735247] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782760794.824058544] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760794.824190068] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760794.824392729] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782760794.824669750] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782760794.824750658] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760794.824797073] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760794.825116014] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782760794.826557015] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782760794.826736713] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782760794.827146236] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782760794.827170078] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782760795.875674844] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782760795.875767868] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782760795.903098131] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782760795.903194184] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782760795.903214998] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782760795.904774527] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782760889.596535464] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782760889.597084198] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782760889.597338046] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782760889.597359054] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782760889.597368336] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782760889.597375762] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782760889.597829034] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782760889.624282108] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760889.624359201] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760889.624452610] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782760889.624625360] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782760889.624675778] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760889.624708999] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760889.624900997] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782760889.625584277] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782760889.625786535] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782760889.626277718] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782760889.626364680] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782760890.912754817] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782760890.947015335] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782760890.953615779] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782760890.954730542] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782760911.596571934] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782760911.597030032] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782760911.597395026] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782760911.597467125] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782760911.597486860] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782760911.597497509] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782760911.598816311] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782760911.655058502] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760911.655278025] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760911.655758105] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782760911.662483322] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782760911.662627033] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760911.662740166] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782760911.663588365] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782760911.665152776] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782760911.665355984] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782760911.666033605] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782760911.666072879] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782760912.683844264] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782760912.683965710] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782760912.692954118] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782760912.693334872] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782760912.693394570] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782760912.703037108] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782761021.365871968] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782761021.366203448] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782761021.366567744] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782761021.366692464] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782761021.366716587] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782761021.366730749] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782761021.367665124] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782761021.392027725] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761021.392133010] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761021.392272673] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782761021.392439585] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782761021.392488027] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761021.392523382] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761021.392806713] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782761021.393295631] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782761021.393347297] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782761021.393597811] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782761021.393629846] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782761022.747706431] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782761022.763524488] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782761022.763724900] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782761022.772680717] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782761042.386597959] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782761042.386871510] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782761042.390747438] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782761042.390813481] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782761042.390822274] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782761042.390827941] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782761042.391661979] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782761042.422164310] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761042.422269725] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761042.422412167] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782761042.422577567] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782761042.422620066] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761042.422638628] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761042.422821516] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782761042.423828771] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782761042.423984012] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782761042.424910276] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782761042.424948084] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782761043.462481624] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782761043.462552259] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782761043.501470785] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782761043.501639312] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782761043.501669011] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782761043.502928129] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782761141.589732478] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782761141.590047594] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782761141.590235005] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782761141.590258615] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782761141.590273541] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782761141.590283785] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782761141.590815970] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782761141.609773363] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761141.609858727] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761141.609993261] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782761141.610193550] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782761141.610260573] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761141.610285256] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761141.610543690] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782761141.611000461] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782761141.611090606] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782761141.611493623] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782761141.611524256] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782761142.959847317] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782761142.979956381] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782761142.980158845] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782761142.980320134] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782761164.224571950] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782761164.229705472] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782761164.230025987] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782761164.230053210] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782761164.230065353] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782761164.230074264] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782761164.232139150] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782761164.285221389] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761164.285309327] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761164.285454357] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782761164.285631213] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782761164.285670481] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761164.285695551] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761164.285933317] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782761164.287532169] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782761164.287616876] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782761164.288861526] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782761164.288894038] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782761165.302789469] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782761165.302978076] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782761165.318163497] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782761165.318518972] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782761165.318601622] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782761165.325888654] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[move_group-7] [INFO] [1782761255.125970276] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782761255.126247177] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782761255.126389189] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782761255.126457804] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782761255.126474397] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782761255.126485621] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782761255.128135505] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782761255.151017494] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761255.151102018] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761255.151171609] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782761255.151315281] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782761255.151359788] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761255.151381065] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761255.151521321] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782761255.151856100] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782761255.151929888] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782761255.152257444] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782761255.152272085] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782761256.437124059] [joint_trajectory_controller]: Goal reached, success!
+[move_group-7] [INFO] [1782761256.471447969] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [INFO] [1782761256.471585394] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1782761256.481493482] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[move_group-7] [INFO] [1782761278.719373994] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-7] [INFO] [1782761278.719651636] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-7] [INFO] [1782761278.719799640] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group-7] [WARN] [1782761278.719819667] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[move_group-7] [WARN] [1782761278.719836568] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group-7] [INFO] [1782761278.719844872] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group-7] [INFO] [1782761278.720298165] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1782761278.747318274] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761278.747369563] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761278.747469405] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1782761278.747664888] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1782761278.747693414] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761278.747708263] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1782761278.747816311] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to joint_trajectory_controller
+[gzserver-4] [INFO] [1782761278.748204053] [joint_trajectory_controller]: Received new action goal
+[gzserver-4] [INFO] [1782761278.748268335] [joint_trajectory_controller]: Accepted new action goal
+[move_group-7] [INFO] [1782761278.748543632] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: joint_trajectory_controller started execution
+[move_group-7] [INFO] [1782761278.748571475] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-4] [INFO] [1782761280.797304212] [joint_trajectory_controller]: Got request to cancel goal
+[gzserver-4] [INFO] [1782761280.797384124] [joint_trajectory_controller]: Canceling active action goal because cancel callback received.
+[move_group-7] [INFO] [1782761280.800687306] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'joint_trajectory_controller' successfully finished
+[move_group-7] [WARN] [1782761280.800791544] [moveit_ros.trajectory_execution_manager]: Controller handle joint_trajectory_controller reports status PREEMPTED
+[move_group-7] [INFO] [1782761280.800813818] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[move_group-7] [INFO] [1782761280.807868395] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution

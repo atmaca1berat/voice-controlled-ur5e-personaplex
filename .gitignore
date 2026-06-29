@@ -30,6 +30,7 @@ wheels/
 !benchmarks/isolated_n15_20260628/*.log
 !benchmarks/cascade_tts_n15_20260628/*.log
 !benchmarks/stop_at_rest_n15_20260628/*.log
+!benchmarks/barge_n15_ppactive_20260629/*.log
 install/
 build/
 log/

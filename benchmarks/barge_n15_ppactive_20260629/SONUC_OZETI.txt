@@ -1,0 +1,77 @@
+================================================================
+BARGE-IN PP-AKTIF n=15  —  SONUC OZETI
+Tarih: 2026-06-29
+================================================================
+
+AMAC
+----
+Sesle kontrol edilen UR5e'de barge-in (kullanici "stop" deyince hareket
+halindeki robotun yorungesinin iptali). Onceki barge-in kosulari PP (PersonaPlex)
+KAPALIYKEN alindigi icin gecersizdi; bu kosu PP GERCEKTEN ayaktayken yapildi.
+
+KURULUM / PROTOKOL (danismanin protokoluyle birebir)
+----------------------------------------------------
+- Mac: ASR (8080) + PersonaPlex (8081) ayakta. PP IP: 192.168.1.103
+- bridge_node.py: CASCADE_TTS=False  (PP 8081 yolu aktif; cascade modu TTS 8082'ye
+  gidip PP'yi atliyordu -> bu deney icin False yapildi, colcon build edildi)
+- Hiz olcegi 0.1 (~11 sn yorunge)
+- ROS stack BIR KEZ ayaga kaldirildi (gazebo+moveit2+ur5e, safety, executor[remap],
+  bridge, joint_states kaydi). Trial arasi stack restart YOK.
+- HER TRIAL oncesi PP elle (Mac'te) restart edildi. Warmup/surekli-PP/sinyal YOK.
+- Her trial: go_home -> move_to a (move_to_position_a.wav) -> ~3 sn sonra stop.wav
+  Ikisi de BRIDGE uzerinden (publish_audio -> bridge -> ASR+PP -> NLU -> executor).
+  barge_measure.py KULLANILMADI (tam ses-yolu).
+
+GECERLILIK KRITERI
+------------------
+Bir trial GECERLI sayilir ancak su UCU de tutarsa:
+  a) err8081 = 0  (bridge logunda 'Cannot connect to host ...8081' yok)
+  b) status = CANCELED
+  c) pp_cancelled = yes
+Gecersiz sebepler: dejenere (robot kipirdamadan stop yakaladi, travel=0,
+move_exec<0.5s), stop ASR timeout, SUCCEEDED, err8081.
+
+SONUC
+-----
+Toplam 23 deneme -> 15 GECERLI.
+Elenen 8: attempt 3,5,6,9,10,12,16 = dejenere (7) + attempt 8 = superseded (1,
+  travel=0 ciktigi icin kullanici istegiyle tekrar kosuldu).
+
+n=15 GECERLI uzerinden:
+  stop_to_halt_s          : mean 0.730  SD 0.343
+  travel_after_stop_rad   : mean 0.219  SD 0.119
+  asr_s                   : mean 0.118  SD 0.137
+  15/15: CANCELED, pp_cancelled=yes, err8081=0, stop ASR timeout YOK.
+
+NOT (asr_s)
+-----------
+Danisman asr_s'in "saniyeler mertebesinde cekismeli" olmasini bekliyordu; bu
+donanimda ASR hizli kaldi (~0.1s). Protokole gore bu GECERLILIK kriteri DEGIL;
+asr_s olculen deger olarak kaydedildi (uydurulmadi).
+
+BULGULAR
+--------
+1) DEJENERE: move komutu bridge'de gec dispatch olunca (ASR+PP yuku) stop,
+   hareket baslamadan robotu "start cizgisinde" yakaliyor -> travel=0. ~%50
+   oraninda gorulup tekrarlandi.
+2) STOP ASR TIMEOUT: PP sogukken (restart sonrasi) move'un PP istegi ayni
+   Mac'teki ASR'yi ac birakip 60s timeout'a dusurebiliyor -> stop transcribe
+   olamaz -> SUCCEEDED. Bu kosuda gecerli 15'te gorulmedi.
+
+DOSYALAR
+--------
+tum_23_deneme.csv  : 23 denemenin hepsi + gecerli/sebep + tum metrikler
+bridge.log         : ASR/PP istekleri, transcript, pp_cancelled, err8081
+executor.log       : Intent, Goal accepted, preempted/CANCELED zincirleri
+safety.log         : guvenlik kapisi (/parsed -> /checked)
+runlog.txt         : publish_audio ciktilari (move/stop wall_time, bytes)
+gazebo.log         : gazebo/moveit baslatma
+bridge_node.py     : kullanilan kod (CASCADE_TTS=False)
+scripts/           : bringup, trial, guard, analyze, make_valid15
+
+Ham joint_states (~150MB, travel/FK icin) WSL'de:
+  /home/onay/test_logs/ppactive/joint.csv
+(OneDrive'i sismemek icin Desktop'a kopyalanmadi; gerekirse istenir.)
+
+GECERLI 15 (yeniden numarali) ayri klasor: ..\barge_n15_gecerli_15\
+================================================================

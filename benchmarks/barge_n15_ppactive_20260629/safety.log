@@ -1,0 +1,72 @@
+[INFO] [1782757576.571401355] [voice_safety_checker]: Voice Safety Checker started
+[INFO] [1782757576.571959266] [voice_safety_checker]: Input: /voice_command/parsed Output: /voice_command/checked
+[INFO] [1782757656.645133045] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782758074.040130574] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782758095.003128333] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782758097.108251672] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782758216.021896608] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782758238.283581007] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782758240.362598005] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782758370.377579603] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782758392.572614263] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782758392.654353266] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782758505.401562913] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782758526.741239682] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782758530.359139225] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782758801.964626646] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782758824.952759936] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782758825.021229440] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782758946.190730495] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782758971.267558988] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782758971.335478019] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782759104.494647223] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782759125.209538534] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782759126.127664205] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782759224.144644337] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782759245.249068381] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782759246.942723732] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782759453.165514488] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782759474.507592283] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782759474.575030358] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782759586.770097521] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782759610.394266142] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782759610.472163612] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782759748.375819200] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782759768.486265722] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782759769.572253589] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782759914.072024744] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782759937.898756521] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782759937.971903183] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782760037.335519613] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782760058.581696251] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782760059.666257636] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782760150.656281902] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782760172.436447270] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782760173.513522058] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782760273.007812734] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782760293.741220296] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782760294.819800488] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782760398.445113943] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782760421.396986035] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782760421.486547850] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782760527.276937312] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782760551.270963826] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782760553.406478000] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782760651.475880853] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782760673.874722808] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782760674.957177645] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782760773.000520669] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782760794.782682551] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782760795.872381560] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782760889.590725877] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782760911.584215796] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782760912.679624609] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782761021.360194911] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782761042.380228612] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782761043.460501016] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782761141.585867479] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782761164.210767003] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782761165.296178328] [voice_safety_checker]: Passthrough (non-motion): safety.stop
+[INFO] [1782761255.120816146] [voice_safety_checker]: Accepted motion.go_home params={}
+[INFO] [1782761278.716110670] [voice_safety_checker]: Accepted motion.move_to params={'target': 'a'}
+[INFO] [1782761280.795077700] [voice_safety_checker]: Passthrough (non-motion): safety.stop
